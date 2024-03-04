@@ -1,0 +1,8 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8¥³Ùà1
+m
+java:S1206("PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8ª³Ùà1
+f
+java:S4201)"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ÊşÑ”8°³Ùà1
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8²³Ùà1

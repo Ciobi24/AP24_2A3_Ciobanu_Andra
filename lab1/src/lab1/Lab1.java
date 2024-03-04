@@ -44,7 +44,8 @@ public class Lab1 {
     }
     void homework(int a, int b, int k){
         long t1 = System.currentTimeMillis();
-        StringBuilder numbers=new StringBuilder();
+//        String numbers=new String(); //StringBuilder mai eficient
+        StringBuilder numbers = new StringBuilder();
         int stop=1;
         int copy_k=k;
         do {
@@ -65,6 +66,7 @@ public class Lab1 {
                 i=sum;
             }while(i>=stop);
             if(i==k){
+//                numbers=numbers+copy+" ";
                 numbers.append(copy);
                 numbers.append(" ");
             }

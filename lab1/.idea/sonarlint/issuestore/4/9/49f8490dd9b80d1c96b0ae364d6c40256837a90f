@@ -1,9 +1,9 @@
 
-y	java:S127?"XRefactor the code in order to not assign to this loop counter from within the loop body.(…‹±‹ÿÿÿÿÿ8ıØ¥ÛŞ1
-t	java:S127A"XRefactor the code in order to not assign to this loop counter from within the loop body.(å–¹Ÿ8ıØ¥ÛŞ1
-t	java:S127G"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦ÇİÒ8ıØ¥ÛŞ1
-m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œêâ8ıØ¥ÛŞ1
-m	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°îëŒ8ıØ¥ÛŞ1
+y	java:S127@"XRefactor the code in order to not assign to this loop counter from within the loop body.(…‹±‹ÿÿÿÿÿ8ıØ¥ÛŞ1
+t	java:S127B"XRefactor the code in order to not assign to this loop counter from within the loop body.(å–¹Ÿ8ıØ¥ÛŞ1
+t	java:S127I"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦ÇİÒ8ıØ¥ÛŞ1
+m	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œêâ8ıØ¥ÛŞ1
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°îëŒ8ıØ¥ÛŞ1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë»õ‡üÿÿÿÿ8şØ¥ÛŞ1
 L	java:S106"+Replace this use of System.out by a logger.(ìéÑçşÿÿÿÿ8áÚ¥ÛŞ1
 L	java:S106"+Replace this use of System.out by a logger.(½¦ÿÿÿÿÿ8âÚ¥ÛŞ1
@@ -14,14 +14,15 @@ java:S2140")Use "java.util.Random.nextInt()" instead.(Š“’½úÿÿÿÿ8âÚ¥ÛŞ1
 G	java:S106 "+Replace this use of System.out by a logger.(†™ñ‹8âÚ¥ÛŞ1
 G	java:S106*"+Replace this use of System.out by a logger.(†™ñ‹8ãÚ¥ÛŞ1
 L	java:S106+"+Replace this use of System.out by a logger.( ½æ“ûÿÿÿÿ8ãÚ¥ÛŞ1
-L	java:S106I"+Replace this use of System.out by a logger.(íÑÓøÿÿÿÿ8äÚ¥ÛŞ1
-G	java:S106K"+Replace this use of System.out by a logger.(²§¿İ8äÚ¥ÛŞ1
+]	java:S125E"<This block of commented-out lines of code should be removed.(ûØŸáúÿÿÿÿ8¶•“œà1
+L	java:S106K"+Replace this use of System.out by a logger.(íÑÓøÿÿÿÿ8äÚ¥ÛŞ1
+G	java:S106M"+Replace this use of System.out by a logger.(²§¿İ8·•“œà1
 o
-java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(®ÏàŒ8åÚ¥ÛŞ1
-G	java:S106O"+Replace this use of System.out by a logger.(…°•é8åÚ¥ÛŞ1
-F	java:S106_"+Replace this use of System.out by a logger.(Ê Ğx8æÚ¥ÛŞ1
-L	java:S106a"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8æÚ¥ÛŞ1
-L	java:S106g"+Replace this use of System.out by a logger.(´ÈÁúÿÿÿÿ8çÚ¥ÛŞ1
-L	java:S106o"+Replace this use of System.out by a logger.(“ÅÃÕûÿÿÿÿ8èÚ¥ÛŞ1
-L	java:S106~"+Replace this use of System.out by a logger.(“ÅÃÕûÿÿÿÿ8êÚ¥ÛŞ1
-H	java:S106ƒ"+Replace this use of System.out by a logger.(Äƒ”¸8êÚ¥ÛŞ1
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(®ÏàŒ8åÚ¥ÛŞ1
+G	java:S106Q"+Replace this use of System.out by a logger.(…°•é8åÚ¥ÛŞ1
+F	java:S106a"+Replace this use of System.out by a logger.(Ê Ğx8æÚ¥ÛŞ1
+L	java:S106c"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8»•“œà1
+L	java:S106i"+Replace this use of System.out by a logger.(´ÈÁúÿÿÿÿ8çÚ¥ÛŞ1
+L	java:S106q"+Replace this use of System.out by a logger.(“ÅÃÕûÿÿÿÿ8èÚ¥ÛŞ1
+M	java:S106€"+Replace this use of System.out by a logger.(“ÅÃÕûÿÿÿÿ8êÚ¥ÛŞ1
+H	java:S106…"+Replace this use of System.out by a logger.(Äƒ”¸8êÚ¥ÛŞ1
