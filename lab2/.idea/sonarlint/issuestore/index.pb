@@ -13,3 +13,13 @@ D
 src/lab2/Client.java,3\8\3878a98482e51fa604c6b2be4618e3eaeeb11595
 B
 src/lab2/Main.java,e\d\eddeb09cf965d4a41ce8d871cca1755ca32172d8
+B
+src/lab2/Tour.java,a\f\af8b4a73720107355eff73b541adc13d6a44df54
+E
+src/lab2/Problem.java,a\e\aee81987a264ea36bc5e22d2e7e87e9071f7e850
+C
+src/lab2/Truck.java,c\1\c1e8abd78cda7c94092d20effef35d0415e02673
+C
+src/lab2/Drone.java,a\1\a1931669e1af60aa32bf74dc1a0e011e85bf49ee
+F
+src/lab2/Solution.java,a\1\a14b60107befddc7bfc4e1865b67122f6d1cce23

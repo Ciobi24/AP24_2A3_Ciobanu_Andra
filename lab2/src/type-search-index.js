@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"lab2","l":"Client"},{"p":"lab2","l":"Depot"},{"p":"lab2","l":"Drone"},{"p":"lab2","l":"Main"},{"p":"lab2","l":"Problem"},{"p":"lab2","l":"Solution"},{"p":"lab2","l":"Tour"},{"p":"lab2","l":"Truck"},{"p":"lab2","l":"Client.Type"},{"p":"lab2","l":"Vehicle"}];updateSearchResults();

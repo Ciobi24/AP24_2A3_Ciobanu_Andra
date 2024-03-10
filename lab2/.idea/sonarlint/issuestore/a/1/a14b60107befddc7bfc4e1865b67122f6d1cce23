@@ -1,0 +1,17 @@
+
+Q
+java:S10663"/Merge this if statement with the enclosing one.(ÞÓž‚ûÿÿÿÿ8ã‘¿Åâ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8å‘¿Åâ1
+v
+java:S1450"TRemove the "tours" field and declare it as a local variable in the relevant methods.(Ýþç«øÿÿÿÿ8¬”¿Åâ1
+u
+java:S3776 "SRefactor this method to reduce its Cognitive Complexity from 129 to the 15 allowed.(¼Šžòÿÿÿÿÿ8°”¿Åâ1
+X
+java:S2696!"6Make the enclosing method "static" or remove this set.(Š˜´ñúÿÿÿÿ8±”¿Åâ1
+X
+java:S2696)"6Make the enclosing method "static" or remove this set.(ûÍÞØúÿÿÿÿ8²”¿Åâ1
+@
+java:S2119M"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8Ö‰ÍÅâ1
+G	java:S106t"+Replace this use of System.out by a logger.(ÖëÞá8ÍŸ×Æâ1
+é
+java:S6541 "ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 78 to 64, Complexity from 30 to 14, Nesting Level from 10 to 2, Number of Variables from 19 to 6.(¼Šžòÿÿÿÿÿ8ÍŸ×Æâ1

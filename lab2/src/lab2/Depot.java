@@ -2,6 +2,9 @@ package lab2;
 
 import java.util.Arrays;
 
+/**
+ * Depot class represents a depot that contains vehicles.
+ */
 public class Depot {
     private String name;
     private Vehicle[] vehicles;
@@ -11,14 +14,6 @@ public class Depot {
 
     public Depot(String name) {
         this.name = name;
-    }
-
-    public Depot(String name, Vehicle[] vehicles) {
-        this.name = name;
-        this.vehicles = vehicles;
-        for (Vehicle v : vehicles) {
-            v.setDepot(this);
-        }
     }
 
     public String getName() {
@@ -34,10 +29,28 @@ public class Depot {
     }
 
     public void setVehicles(Vehicle... vehicles) {
-        this.vehicles = vehicles;
-        for (Vehicle v : vehicles) {
-            v.setDepot(this);
+        Vehicle[] vehicles1 = new Vehicle[vehicles.length];
+        int i = 0;
+        for (int j = 0; j < vehicles.length; j++) {
+            boolean isDuplicate = false;
+            for (int k = j + 1; k < vehicles.length; k++) {
+                if (vehicles[j].equals(vehicles[k])) {
+                    isDuplicate = true;
+                }
+            }
+            if (!isDuplicate) {
+                if (vehicles[j] instanceof Drone) {
+                    vehicles1[i] = new Drone(vehicles[j].getName(), ((Drone) vehicles[j]).getDuration());
+                    vehicles1[i++].setDepot(this);
+                } else if (vehicles[j] instanceof Truck) {
+                    vehicles1[i] = new Truck(vehicles[j].getName(), ((Truck) vehicles[j]).getCapacity());
+                    vehicles1[i++].setDepot(this);
+                    vehicles[j].setDepot(this);
+                }
+            }
+
         }
+        this.vehicles = Arrays.copyOf(vehicles1, i);
     }
 
     @Override

@@ -3,6 +3,9 @@ package lab2;
 import java.time.LocalTime;
 import java.util.Objects;
 
+/**
+ * Client class includes the name, start and end interval and the type of the client
+ */
 public class Client {
     public enum Type {
         PREMIUM,
@@ -77,7 +80,7 @@ public class Client {
         if (this == o) return true;
         if (o == null || !(o instanceof Client)) return false;
         Client other = (Client) o;
-        return name.equals(other.name) && startInterval.equals(other.startInterval) && endInterval.equals(other.endInterval) ;
+        return name.equals(other.name) && startInterval.equals(other.startInterval) && endInterval.equals(other.endInterval);
     }
 
 }

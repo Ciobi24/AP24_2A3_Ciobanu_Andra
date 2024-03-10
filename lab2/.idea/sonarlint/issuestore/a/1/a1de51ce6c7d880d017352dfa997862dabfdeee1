@@ -1,6 +1,10 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8¼÷à1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8Ç”Ùá1
 m
-java:S12064"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8¾˜à1
+java:S1206A"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8¢Ç”Ùá1
+`
+java:S6201*"DReplace this instanceof check and cast with 'instanceof Drone drone'(ô«Äw8¥Ç”Ùá1
+a
+java:S6201-"DReplace this instanceof check and cast with 'instanceof Truck truck'(òÔçÑ8¦Ç”Ùá1
 k
-java:S42015"IRemove this unnecessary null check; "instanceof" returns false for nulls.(‹Ôìóúÿÿÿÿ8ÑÌ›à1
+java:S4201B"IRemove this unnecessary null check; "instanceof" returns false for nulls.(‹Ôìóúÿÿÿÿ8§Ç”Ùá1

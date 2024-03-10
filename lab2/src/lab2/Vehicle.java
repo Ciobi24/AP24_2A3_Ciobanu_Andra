@@ -2,14 +2,18 @@ package lab2;
 
 import java.util.Objects;
 
-public class Vehicle {
+/**
+ * Vehicle class represents a vehicle in a depot
+ * A vehicle has a name and one depot
+ */
+public abstract class Vehicle {
     private Depot depot;
     private String name;
 
-    public Vehicle() {
+    protected Vehicle() {
     }
 
-    public Vehicle(String name) {
+    protected Vehicle(String name) {
         this.name = name;
     }
 
