@@ -1,0 +1,4 @@
+homework: algoritm greedy luand mereu cel mai apropiat client si verificand ca ajung in intervalul sau orar, distantele sunt generate random si nu sunt stocate. Incep un tur nou, aleg dintr-un depou un vehicul care inca nu a facut niciun tur, iar dintre clientii care inca nu au fost vizitati il aleg pe cel mai apropiat de locatia curenta. Daca nu mai pot vizita niciunul in intervalul sau, incep un alt tur.\
+(sunt foarte multe fisiere de la generarea javadoc-ului)\
+(compulsory este comentat deoarece Vehicle devine clasa abstracta si nu mai poate fi instantiata)\
+bonus: distantele nu mai sunt generate random, trebuie stocate si vor fi sub forma unui grid graf
