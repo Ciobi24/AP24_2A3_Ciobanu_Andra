@@ -25,6 +25,7 @@ public class Tour {
     /**
      * Set the clients of the tour.
      * Make sure that the clients are unique.
+     *
      * @param clients
      */
     public void setClients(Client... clients) {
@@ -70,6 +71,7 @@ public class Tour {
 
     /**
      * Add an arrival time to the list of arrival times
+     *
      * @param arrivalTime
      */
     public void addArrivalTime(LocalTime arrivalTime) {
@@ -89,6 +91,7 @@ public class Tour {
     /**
      * Add a client to the list of clients
      * Make sure that the client is unique
+     *
      * @param client
      * @return
      */
@@ -131,7 +134,7 @@ public class Tour {
                     toReturn.append(client.getStartInterval()).append(" - ").append(client.getEndInterval()).append(" ], ");
                 }
             }
-            toReturn.append(", arrivalTimes=").append(Arrays.toString(arrivalTime));
+            toReturn.append(" arrivalTimes=").append(Arrays.toString(arrivalTime));
             toReturn.append('}');
         }
         return toReturn.toString();

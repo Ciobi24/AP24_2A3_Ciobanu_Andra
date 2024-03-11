@@ -9,6 +9,7 @@ import java.util.Arrays;
 public class Problem {
     private Depot[] depots;
     private Client[] clients;
+    private int[][] distanceMatrix;
 
     public Problem() {
     }
@@ -60,6 +61,7 @@ public class Problem {
         this.clients = Arrays.copyOf(clients1, i);
     }
 
+
     public Depot[] getDepots() {
         return depots;
     }
@@ -68,5 +70,11 @@ public class Problem {
         return clients;
     }
 
+    public int[][] getDistanceMatrix() {
+        return distanceMatrix;
+    }
 
+    public void setDistanceMatrix(int[][] distanceMatrix) {
+        this.distanceMatrix = distanceMatrix;
+    }
 }

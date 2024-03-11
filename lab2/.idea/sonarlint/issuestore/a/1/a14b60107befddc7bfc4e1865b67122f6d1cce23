@@ -1,17 +1,37 @@
 
 Q
-java:S10663"/Merge this if statement with the enclosing one.(ŞÓ‚ûÿÿÿÿ8ã‘¿Åâ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8å‘¿Åâ1
-v
-java:S1450"TRemove the "tours" field and declare it as a local variable in the relevant methods.(İşç«øÿÿÿÿ8¬”¿Åâ1
-u
-java:S3776 "SRefactor this method to reduce its Cognitive Complexity from 129 to the 15 allowed.(¼Šòÿÿÿÿÿ8°”¿Åâ1
+java:S1066*"/Merge this if statement with the enclosing one.(ŞÓ‚ûÿÿÿÿ8ª‘å÷â1
+L
+java:S1066O"/Merge this if statement with the enclosing one.(ºïÜ8«‘å÷â1
+R
+java:S1066©"/Merge this if statement with the enclosing one.(ŞÓ‚ûÿÿÿÿ8«‘å÷â1
+M
+java:S1066Ó"/Merge this if statement with the enclosing one.(ºïÜ8¬‘å÷â1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8¯‘å÷â1
+p
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 127 to the 15 allowed.(òˆÖ¾8ß–å÷â1
 X
-java:S2696!"6Make the enclosing method "static" or remove this set.(Š˜´ñúÿÿÿÿ8±”¿Åâ1
+java:S2696"6Make the enclosing method "static" or remove this set.(Š˜´ñúÿÿÿÿ8à–å÷â1
 X
-java:S2696)"6Make the enclosing method "static" or remove this set.(ûÍŞØúÿÿÿÿ8²”¿Åâ1
+java:S26963"6Make the enclosing method "static" or remove this set.(ûÍŞØúÿÿÿÿ8â–å÷â1
 @
-java:S2119M"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8Ö‰ÍÅâ1
-G	java:S106t"+Replace this use of System.out by a logger.(ÖëŞá8ÍŸ×Æâ1
-é
-java:S6541 "ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 78 to 64, Complexity from 30 to 14, Nesting Level from 10 to 2, Number of Variables from 19 to 6.(¼Šòÿÿÿÿÿ8ÍŸ×Æâ1
+java:S2119K"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8ç–å÷â1
+G	java:S106p"+Replace this use of System.out by a logger.(ÖëŞá8è–å÷â1
+F
+java:S1659w")Declare "indexClient" on a separate line.(ÁÎª’8é–å÷â1
+H
+java:S1659ˆ"*Declare "indexClient2" on a separate line.(¡³á™8ë–å÷â1
+q
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 147 to the 15 allowed.(›ËšÙ8í–å÷â1
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(Š˜´ñúÿÿÿÿ8î–å÷â1
+M	java:S106²"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8ï–å÷â1
+Y
+java:S2696³"6Make the enclosing method "static" or remove this set.(ûÍŞØúÿÿÿÿ8ï–å÷â1
+G	java:S106Ş"+Replace this use of System.out by a logger.(€Ë²:8ñ–å÷â1
+M	java:S106å"+Replace this use of System.out by a logger.(Ç‚ş©ÿÿÿÿÿ8ö–å÷â1
+H	java:S106÷"+Replace this use of System.out by a logger.(ÖëŞá8ö–å÷â1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 76 to 64, Complexity from 31 to 14, Nesting Level from 10 to 2, Number of Variables from 17 to 6.(òˆÖ¾8÷–å÷â1
+å
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 84 to 64, Complexity from 34 to 14, Nesting Level from 10 to 2, Number of Variables from 16 to 6.(›ËšÙ8÷–å÷â1

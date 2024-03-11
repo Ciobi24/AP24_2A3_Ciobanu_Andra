@@ -23,3 +23,5 @@ C
 src/lab2/Drone.java,a\1\a1931669e1af60aa32bf74dc1a0e011e85bf49ee
 F
 src/lab2/Solution.java,a\1\a14b60107befddc7bfc4e1865b67122f6d1cce23
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
