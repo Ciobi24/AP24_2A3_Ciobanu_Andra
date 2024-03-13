@@ -112,7 +112,7 @@ public class Main {
         Client client1 = new Client("Client1", LocalTime.of(8, 0), LocalTime.of(22, 0), Client.Type.REGULAR);
         Client client2 = new Client("Client2", LocalTime.of(15, 20), LocalTime.of(17, 15), Client.Type.REGULAR);
         Client client3 = new Client("Client3", LocalTime.of(10, 40), LocalTime.of(12, 30), Client.Type.PREMIUM);
-        Client client4 = new Client("Client4", LocalTime.of(17, 0), LocalTime.of(21, 10), Client.Type.REGULAR);
+        Client client4 = new Client("Client4", LocalTime.of(17, 10), LocalTime.of(21, 10), Client.Type.REGULAR);
 //        Client client5 = new Client("Client5", LocalTime.of(17, 0), LocalTime.of(21, 10), Client.Type.REGULAR);
 //        Client client6 = new Client("Client6", LocalTime.of(17, 0), LocalTime.of(21, 10), Client.Type.REGULAR);
 //        Client client7 = new Client("Client7", LocalTime.of(17, 0), LocalTime.of(21, 10), Client.Type.REGULAR);
@@ -137,6 +137,7 @@ public class Main {
         matrixCost[1][2] = matrixCost[2][1] = 1;
         matrixCost[2][4] = matrixCost[4][2] = 4;
         matrixCost[2][3] = matrixCost[3][2] = 5;
+        matrixCost[5][2] = matrixCost[2][5] = 6;
         problem.setDistanceMatrix(matrixCost);
         Solution solution = new Solution(problem);
         solution.solveBonus();

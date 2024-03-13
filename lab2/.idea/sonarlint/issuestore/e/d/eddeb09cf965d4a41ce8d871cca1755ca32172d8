@@ -1,15 +1,15 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8üÄ¬öâ1
-L	java:S106"+Replace this use of System.out by a logger.(§Ã¡İùÿÿÿÿ8¨Å¬öâ1
-]	java:S125"<This block of commented-out lines of code should be removed.(±¯Çˆıÿÿÿÿ8¨Å¬öâ1
-F	java:S106"+Replace this use of System.out by a logger.(»Şë8¨Å¬öâ1
-]	java:S125"<This block of commented-out lines of code should be removed.(òŸ¢Êùÿÿÿÿ8¨Å¬öâ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8Ú†›ã1
+L	java:S106"+Replace this use of System.out by a logger.(§Ã¡İùÿÿÿÿ8‰Ÿ†›ã1
+]	java:S125"<This block of commented-out lines of code should be removed.(±¯Çˆıÿÿÿÿ8‰Ÿ†›ã1
+F	java:S106"+Replace this use of System.out by a logger.(»Şë8‰Ÿ†›ã1
+]	java:S125"<This block of commented-out lines of code should be removed.(òŸ¢Êùÿÿÿÿ8‹Ÿ†›ã1
 W
-java:S1854g"5Remove this useless assignment to local variable "y".(ˆíˆĞşÿÿÿÿ8©Å¬öâ1
+java:S1854g"5Remove this useless assignment to local variable "y".(ˆíˆĞşÿÿÿÿ8‘Ÿ†›ã1
 A
-java:S1659g"Declare "y" on a separate line.(ˆíˆĞşÿÿÿÿ8ªÅ¬öâ1
+java:S1659g"Declare "y" on a separate line.(ˆíˆĞşÿÿÿÿ8’Ÿ†›ã1
 :
-java:S2119D"Save and re-use this "Random".(¼İÅf8«Å¬öâ1
+java:S2119D"Save and re-use this "Random".(¼İÅf8•Ÿ†›ã1
 H
-java:S1481g"&Remove this unused "y" local variable.(ˆíˆĞşÿÿÿÿ8¬Å¬öâ1
-]	java:S125t"<This block of commented-out lines of code should be removed.(„¬Ì™ûÿÿÿÿ8é¦ƒøâ1
+java:S1481g"&Remove this unused "y" local variable.(ˆíˆĞşÿÿÿÿ8›Ÿ†›ã1
+]	java:S125t"<This block of commented-out lines of code should be removed.(„¬Ì™ûÿÿÿÿ8¢Ÿ†›ã1
