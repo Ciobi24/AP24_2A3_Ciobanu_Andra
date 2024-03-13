@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8¿ô­Èâ1
+m
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(°Ñµ˜8Âô­Èâ1
+W
+java:S1161":Add the "@Override" annotation above this method signature(°Ñµ˜8ëõ§›ã1
+p
+java:S6201"SReplace this instanceof check and cast with 'instanceof TimeInterval otherInterval'(Ì³­¯8Æô­Èâ1
+W
+java:S1161":Add the "@Override" annotation above this method signature(Á»›ê8ðõ§›ã1
