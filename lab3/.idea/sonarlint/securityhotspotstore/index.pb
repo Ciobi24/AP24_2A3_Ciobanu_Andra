@@ -21,3 +21,7 @@ D
 src/lab3/Statue.java,f\5\f541177598a86ea0299ce041669ef884c0f85a17
 H
 src/lab3/TravelPlan.java,6\9\694bc78ead9fb8d1ef95a72854f9dedba07abc74
+B
+src/lab3/README.md,0\9\099824020378e9557c543d13d6e35f43e5ba8a0b
+=
+src/README.md,8\3\83aa3445a7f65c488e8ccd0a5ad0e80c174dc329
