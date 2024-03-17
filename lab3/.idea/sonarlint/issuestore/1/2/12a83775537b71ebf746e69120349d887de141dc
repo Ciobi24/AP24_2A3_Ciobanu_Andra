@@ -1,10 +1,8 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8¿ô­Èâ1
-m
-java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(°Ñµ˜8Âô­Èâ1
-W
-java:S1161":Add the "@Override" annotation above this method signature(°Ñµ˜8ëõ§›ã1
-p
-java:S6201"SReplace this instanceof check and cast with 'instanceof TimeInterval otherInterval'(Ì³­¯8Æô­Èâ1
-W
-java:S1161":Add the "@Override" annotation above this method signature(Á»›ê8ðõ§›ã1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8ˆ—þÄâ1J$19f09bab-f504-42f3-ac83-e9d48796f5a9
+“
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(°Ñµ˜8——þÄâ1J$9d0d74db-cfd4-413a-ab97-24604332bd56
+}
+java:S1161":Add the "@Override" annotation above this method signature(°Ñµ˜8Šž–ââ1J$048883ed-30a5-4b6a-8388-a5394ce16399
+}
+java:S1161":Add the "@Override" annotation above this method signature(Á»›ê8’ž–ââ1J$447ff77c-627e-42e8-9894-ec3b2a852b01

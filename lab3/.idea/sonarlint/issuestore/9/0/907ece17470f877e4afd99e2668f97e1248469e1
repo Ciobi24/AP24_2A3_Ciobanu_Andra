@@ -1,10 +1,10 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8ñ¸ŞÇâ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8•Ş±¼ä1
 {
-java:S12107"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(äÑ€Æøÿÿÿÿ8ó¸ŞÇâ1
+java:S12108"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(äÑ€Æøÿÿÿÿ8œŞ±¼ä1
 V
-java:S5993"9Change the visibility of this constructor to "protected".(Ÿè´8ô¸ŞÇâ1
+java:S5993	"9Change the visibility of this constructor to "protected".(Ÿè´8Ş±¼ä1
 [
-java:S5993"9Change the visibility of this constructor to "protected".(óòš¼şÿÿÿÿ8ô¸ŞÇâ1
+java:S5993"9Change the visibility of this constructor to "protected".(óòš¼şÿÿÿÿ8Ş±¼ä1
 V
-java:S5993"9Change the visibility of this constructor to "protected".(œºó£8ô¸ŞÇâ1
+java:S5993"9Change the visibility of this constructor to "protected".(œºó£8Ş±¼ä1

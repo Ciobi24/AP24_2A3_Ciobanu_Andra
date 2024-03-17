@@ -2,10 +2,10 @@ package lab3;
 
 import java.util.Objects;
 
-public class Pair<T,U>{
+public class Pair <T, U>{
     private T first;
     private U second;
-    public Pair(){}
+    public Pair(){};
     public Pair(T first, U second){
         this.first = first;
         this.second = second;
@@ -13,18 +13,9 @@ public class Pair<T,U>{
     public T getFirst(){
         return first;
     }
-
-    public U getSecond() {
+    public U getSecond(){
         return second;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Pair<?, ?> pair)) return false;
-        return Objects.equals(getFirst(), pair.getFirst()) && Objects.equals(getSecond(), pair.getSecond());
-    }
-
 
     @Override
     public String toString() {
@@ -32,5 +23,13 @@ public class Pair<T,U>{
                 "first=" + first +
                 ", second=" + second +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pair<?, ?> pair = (Pair<?, ?>) o;
+        return Objects.equals(first, pair.first) && Objects.equals(second, pair.second);
     }
 }

@@ -1,3 +1,4 @@
+
 package lab3;
 
 public abstract class Attraction implements Comparable<Attraction> {

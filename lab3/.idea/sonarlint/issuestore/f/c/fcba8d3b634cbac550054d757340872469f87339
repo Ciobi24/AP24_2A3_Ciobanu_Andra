@@ -1,0 +1,15 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(äØÏù8¯º°çä1
+r	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıîÏæûÿÿÿÿ8±º°çä1
+l	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÃ8±º°çä1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8³º°çä1
+m	java:S116	"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıù¹öüÿÿÿÿ8Ú¼°çä1
+j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®é¶™8á¼°çä1
+o
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(®é¶™8â¼°çä1
+`
+java:S1659@"CDeclare "maxDeg" and all following declarations on a separate line.(Ï¸É8ä¼°çä1
+j	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨½š¼8ç¼°çä1
+o
+java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¨½š¼8ç¼°çä1

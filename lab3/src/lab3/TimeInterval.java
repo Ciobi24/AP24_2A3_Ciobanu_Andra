@@ -22,8 +22,7 @@ public class TimeInterval extends Pair<LocalTime,LocalTime> {
         return getStart().isBefore(other.getStart()) && getEnd().isAfter(other.getEnd());
     }
     public boolean equals(Object other) {
-        if (other instanceof TimeInterval) {
-            TimeInterval otherInterval = (TimeInterval) other;
+        if (other instanceof TimeInterval otherInterval) {
             return getStart().equals(otherInterval.getStart()) && getEnd().equals(otherInterval.getEnd());
         }
         return false;
@@ -32,3 +31,4 @@ public class TimeInterval extends Pair<LocalTime,LocalTime> {
         return getStart() + " - " + getEnd();
     }
 }
+
