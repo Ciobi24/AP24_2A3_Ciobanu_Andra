@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8‘¥æÁå1
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8£¥æÁå1
+g
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8¤¥æÁå1
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¥¥æÁå1
+G	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8¦¥æÁå1
+L	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8¦¥æÁå1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¦¥æÁå1
+G	java:S106 "+Replace this use of System.out by a logger.(Ÿÿµî8§¥æÁå1
+L	java:S106%"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8Ä˜òÁå1
+:
+java:S2119+"Save and re-use this "Random".(¼İÅf8«¥æÁå1
