@@ -11,3 +11,7 @@ L
 src/main/java/lab4/Road.java,c\8\c805eef8b572bdc0841f9f254a6f9014026e51fa
 O
 src/main/java/lab4/RoadMap.java,9\2\92cf8d6a050579b537209f26834437de7c3eaa8d
+O
+src/main/java/lab4/Problem.java,6\4\643595e8b0e73257eb60e39dd4aeb9f6f08cc15c
+=
+src/README.md,8\3\83aa3445a7f65c488e8ccd0a5ad0e80c174dc329

@@ -1,20 +1,16 @@
 package lab4;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.util.List;
 
+@ToString
+@Getter
+@AllArgsConstructor
+@Setter
 public class RoadMap {
     List<Road> roads;
-    public RoadMap(List<Road> roads){
-        this.roads=roads;
-    }
-    public List<Road> getRoads() {
-        return roads;
-    }
-
-    @Override
-    public String toString() {
-        return "RoadMap{" +
-                "roads=" + roads +
-                '}';
-    }
 }

@@ -1,15 +1,19 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8‘¥æÁå1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8Ø·Íææ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8í·Íææ1
 o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8£¥æÁå1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8í·Íææ1
 g
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8¤¥æÁå1
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8î·Íææ1
 o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¥¥æÁå1
-G	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8¦¥æÁå1
-L	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8¦¥æÁå1
-L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¦¥æÁå1
-G	java:S106 "+Replace this use of System.out by a logger.(Ÿÿµî8§¥æÁå1
-L	java:S106%"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8Ä˜òÁå1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8î·Íææ1
+G	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8ï·Íææ1
+L	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8ï·Íææ1
+L	java:S106!"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ï·Íææ1
+G	java:S106%"+Replace this use of System.out by a logger.(Ÿÿµî8ğ·Íææ1
+L	java:S106*"+Replace this use of System.out by a logger.(Ñ•¡Ğşÿÿÿÿ8ğ·Íææ1
 :
-java:S2119+"Save and re-use this "Random".(¼İÅf8«¥æÁå1
+java:S21191"Save and re-use this "Random".(¼İÅf8ó·Íææ1
+:
+java:S2119R"Save and re-use this "Random".(¼İÅf8ş·Íææ1
+G	java:S106z"+Replace this use of System.out by a logger.(«ò¿8ƒ¸Íææ1
