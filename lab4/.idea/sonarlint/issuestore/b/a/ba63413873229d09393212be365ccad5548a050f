@@ -1,19 +1,33 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8Ø·Íææ1
-]	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8í·Íææ1
+€
+java:S1488É"cImmediately return this expression instead of assigning it to the temporary variable "destination".(·ÅÆ~8Ú¬ýºç1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8Û¬ýºç1
+]	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8ô¬ýºç1
 o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8í·Íææ1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ö¬ýºç1
 g
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8î·Íææ1
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8÷¬ýºç1
 o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8î·Íææ1
-G	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8ï·Íææ1
-L	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8ï·Íææ1
-L	java:S106!"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ï·Íææ1
-G	java:S106%"+Replace this use of System.out by a logger.(Ÿÿµî8ð·Íææ1
-L	java:S106*"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8ð·Íææ1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8÷¬ýºç1
+G	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8ø¬ýºç1
+L	java:S106 "+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8ø¬ýºç1
+L	java:S106""+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ø¬ýºç1
+G	java:S106&"+Replace this use of System.out by a logger.(Ÿÿµî8ù¬ýºç1
+L	java:S106+"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8ú¬ýºç1
 :
-java:S21191"Save and re-use this "Random".(¼ÝÅf8ó·Íææ1
+java:S21192"Save and re-use this "Random".(¼ÝÅf8ü¬ýºç1
 :
-java:S2119R"Save and re-use this "Random".(¼ÝÅf8þ·Íææ1
-G	java:S106z"+Replace this use of System.out by a logger.(«ò¿8ƒ¸Íææ1
+java:S2119S"Save and re-use this "Random".(¼ÝÅf8„­ýºç1
+G	java:S106{"+Replace this use of System.out by a logger.(«ò¿8ˆ­ýºç1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ˆ­ýºç1
+M	java:S106‰"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8‰­ýºç1
+M	java:S106Š"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8‰­ýºç1
+M	java:S106Ž"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8‰­ýºç1
+M	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8‰­ýºç1
+H	java:S106"+Replace this use of System.out by a logger.(«ò¿8Š­ýºç1
+M	java:S106‘"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Š­ýºç1
+M	java:S106’"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Š­ýºç1
+;
+java:S2119š"Save and re-use this "Random".(¼ÝÅf8Š­ýºç1
+;
+java:S2119·"Save and re-use this "Random".(¼ÝÅf8Œ­ýºç1

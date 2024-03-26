@@ -1,30 +1,44 @@
 
-k
-java:S1192!"NDefine a constant instead of duplicating this literal " destination " 3 times.(â’™ù8—ùÇææ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8äƒÅææ1
-o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ã„Åææ1
-b
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(äÛè8Ä„Åææ1
-\
-java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(äÛè8Ä„Åææ1
-t
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¯¤Ñ¶ÿÿÿÿÿ8Å„Åææ1
-g
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(¯¤Ñ¶ÿÿÿÿÿ8Å„Åææ1
-a
-java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(¯¤Ñ¶ÿÿÿÿÿ8Å„Åææ1
-G	java:S106!"+Replace this use of System.out by a logger.(â’™ù8Æ„Åææ1
-L	java:S106#"+Replace this use of System.out by a logger.(éËúøıÿÿÿÿ8Ç„Åææ1
-t
-java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(š›¸›ıÿÿÿÿ8Ç„Åææ1
-t
-java:S6204/"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Á˜›…ùÿÿÿÿ8È„Åææ1
-g
-java:S1612/"EReplace this lambda with method reference 'Driver.class::isInstance'.(Á˜›…ùÿÿÿÿ8È„Åææ1
-a
-java:S1612/"?Replace this lambda with method reference 'Driver.class::cast'.(Á˜›…ùÿÿÿÿ8È„Åææ1
 Q
-java:S28641"4Iterate over the "entrySet" instead of the "keySet".(ÃÀÄÀ8È„Åææ1
+java:S3740"/Provide the parametrized type for this generic.(²Ñ€ˆşÿÿÿÿ8¸ÔÛ¼ç1
+k
+java:S1192%"NDefine a constant instead of duplicating this literal " destination " 3 times.(â’™ù8¸ÔÛ¼ç1
+Q
+java:S1066g"/Merge this if statement with the enclosing one.(ò ‹Îøÿÿÿÿ8¸ÔÛ¼ç1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8ºÔÛ¼ç1
+Ÿ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÔÃ°ğ8ëÕÛ¼ç1
 t
-java:S6204?"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‹©—ëüÿÿÿÿ8Ê„Åææ1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(°ÎÁ­úÿÿÿÿ8íÕÛ¼ç1
+g
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(°ÎÁ­úÿÿÿÿ8íÕÛ¼ç1
+a
+java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(°ÎÁ­úÿÿÿÿ8îÕÛ¼ç1
+t
+java:S6204""RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¯¤Ñ¶ÿÿÿÿÿ8ğÕÛ¼ç1
+g
+java:S1612""EReplace this lambda with method reference 'Driver.class::isInstance'.(¯¤Ñ¶ÿÿÿÿÿ8ñÕÛ¼ç1
+a
+java:S1612""?Replace this lambda with method reference 'Driver.class::cast'.(¯¤Ñ¶ÿÿÿÿÿ8ñÕÛ¼ç1
+G	java:S106%"+Replace this use of System.out by a logger.(â’™ù8ñÕÛ¼ç1
+L	java:S106'"+Replace this use of System.out by a logger.(éËúøıÿÿÿÿ8òÕÛ¼ç1
+o
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ğ…“œ8òÕÛ¼ç1
+t
+java:S62046"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Á˜›…ùÿÿÿÿ8òÕÛ¼ç1
+g
+java:S16126"EReplace this lambda with method reference 'Driver.class::isInstance'.(Á˜›…ùÿÿÿÿ8óÕÛ¼ç1
+a
+java:S16126"?Replace this lambda with method reference 'Driver.class::cast'.(Á˜›…ùÿÿÿÿ8óÕÛ¼ç1
+Q
+java:S28648"4Iterate over the "entrySet" instead of the "keySet".(ÃÀÄÀ8óÕÛ¼ç1
+t
+java:S6204F"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‹©—ëüÿÿÿÿ8ôÕÛ¼ç1
+t
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(“°Ã–ûÿÿÿÿ8õÕÛ¼ç1
+c
+java:S6201`"FReplace this instanceof check and cast with 'instanceof Driver driver'(Š´ıİ8öÕÛ¼ç1
+c
+java:S6201v"FReplace this instanceof check and cast with 'instanceof Driver driver'(¾ü¢˜8÷ÕÛ¼ç1
+d
+java:S6201„"FReplace this instanceof check and cast with 'instanceof Driver driver'(Š´ıİ8ùÕÛ¼ç1

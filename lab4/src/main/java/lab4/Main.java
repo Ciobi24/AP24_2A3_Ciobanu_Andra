@@ -11,7 +11,8 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
 //    main.compulsory();
-        main.homework();
+//        main.homework();
+        main.bonus();
     }
 
     public void compulsory() {
@@ -117,9 +118,88 @@ public class Main {
         problem.setPersons(generateRandomPersons(200, roadMap));
         problem.findDestinationsOfDrivers();
         problem.findDestinationsOfPersons();
-        problem.matching();
+        problem.matchingGreedy();
         problem.printDriverAndPassenger();
         System.out.println(roadMap);
     }
 
+    public void bonus(){
+        Problem problem = new Problem();
+        RoadMap roadMap = generateRoadMap(50, 10);
+        problem.setRoadMap(roadMap);
+        problem.setPersons(generateRandomPersonsAndDrivers(40, 20, roadMap));
+        problem.findDestinationsOfDrivers();
+        problem.findDestinationsOfPersons();
+        //GREEDY ALGORITHM
+        problem.matchingGreedy();
+        problem.printDriverAndPassenger();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        //HOPCROFT KARP ALGORITHM
+        problem.matchingHopcroftKarp();
+        problem.printDriverAndPassenger();
+        System.out.println();
+        System.out.println();
+        System.out.println(roadMap);
+        System.out.println();
+        System.out.println();
+        //MAX INDEPENDENT SET
+
+
+
+    }
+    public List<Person> generateRandomPersonsAndDrivers(int numberOfDrivers, int numberOfPersons, RoadMap roadMap) {
+        List<Person> persons = new ArrayList<>();
+        Random random = new Random();
+        Faker faker = new Faker();
+
+        // Generate drivers
+        for (int i = 0; i < numberOfDrivers; i++) {
+            String name = faker.name().fullName();
+            int age = faker.number().numberBetween(18, 100);
+            String destination = generateRandomDestination(roadMap);
+            persons.add(new Driver(name, age, destination));
+        }
+
+        // Generate persons
+        for (int i = 0; i < numberOfPersons; i++) {
+            String name = faker.name().fullName();
+            int age = faker.number().numberBetween(18, 100);
+            String destination = generateRandomDestination(roadMap);
+
+            // 10% chance to match a driver's destination
+            if (random.nextFloat() <= 0.1) {
+                int driverIndex = random.nextInt(numberOfDrivers);
+                destination = ((Driver) persons.get(driverIndex)).getDestination();
+            }
+
+            persons.add(new Person(name, age, destination));
+        }
+
+        return persons;
+    }
+    public String generateRandomDestination(RoadMap roadMap) {
+        Random random = new Random();
+
+        // Get the list of roads
+        List<Road> roads = roadMap.getRoads();
+
+        // Generate a random index for the roads
+        int roadIndex = random.nextInt(roads.size());
+
+        // Get the road at the random index
+        Road road = roads.get(roadIndex);
+
+        // Get the list of stops for the selected road
+        List<String> stops = road.getStops();
+
+        // Generate a random index for the stops
+        int stopIndex = random.nextInt(stops.size());
+
+        // Get the stop at the random index
+        String destination = stops.get(stopIndex);
+
+        return destination;
+    }
 }
