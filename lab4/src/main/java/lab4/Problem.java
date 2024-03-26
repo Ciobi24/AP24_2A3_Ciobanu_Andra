@@ -5,6 +5,7 @@ import org.graph4j.Graph;
 import org.graph4j.GraphBuilder;
 import org.graph4j.alg.matching.HopcroftKarpMaximumMatching;
 import org.graph4j.util.Matching;
+import org.graph4j.util.VertexSet;
 
 import java.util.List;
 import java.util.Map;
@@ -139,7 +140,19 @@ public class Problem {
     }
 
     public void maxIndependentSet() {
-
+        this.clearPassengers();
+        this.setGraph();
+        HopcroftKarpMaximumMatching hopcroftKarpMaxMatching = new HopcroftKarpMaximumMatching(graph);
+        VertexSet vertexSet = hopcroftKarpMaxMatching.getMaximumStableSet();
+        for (int i = 0; i < persons.size(); i++) {
+            if (vertexSet.contains(i)) {
+                if (persons.get(i) instanceof Driver) {
+                    System.out.println((Driver) persons.get(i));
+                } else {
+                    System.out.println(persons.get(i));
+                }
+            }
+        }
     }
 }
 
