@@ -1,0 +1,21 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ûí˜°ç1
+f
+java:S2095W"DUse try-with-resources or close this "Stream" in a "finally" clause.(ä…ó‘ıÿÿÿÿ8Ëõò´ç1
+f
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(şºØÖûÿÿÿÿ8Ãíñ´ç1
+Y
+java:S1854"<Remove this useless assignment to local variable "pathDocs".(°Ûêˆ8›î˜°ç1
+L	java:S106""+Replace this use of System.err by a logger.(õáà®ÿÿÿÿÿ8î˜°ç1
+L	java:S106/"+Replace this use of System.err by a logger.(õáà®ÿÿÿÿÿ8Ÿî˜°ç1
+G	java:S106<"+Replace this use of System.out by a logger.(Ÿ•Ş²8¡î˜°ç1
+L	java:S106@"+Replace this use of System.err by a logger.(­“¤Üøÿÿÿÿ8¢î˜°ç1
+L	java:S106I"+Replace this use of System.out by a logger.(Œß˜©ıÿÿÿÿ8£î˜°ç1
+G	java:S106K"+Replace this use of System.err by a logger.(Š‘Õº8£î˜°ç1
+G	java:S106a"+Replace this use of System.out by a logger.(Ó†Ø»8¤î˜°ç1
+L	java:S106c"+Replace this use of System.err by a logger.(ÑÀÂıÿÿÿÿ8¤î˜°ç1
+V
+java:S2864i"4Iterate over the "entrySet" instead of the "keySet".(ˆ ¥°ÿÿÿÿÿ8¥î˜°ç1
+G	java:S106j"+Replace this use of System.out by a logger.(êôÃÅ8¥î˜°ç1
+L	java:S106l"+Replace this use of System.out by a logger.(î””µÿÿÿÿÿ8¥î˜°ç1
+L	java:S106m"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¥î˜°ç1
