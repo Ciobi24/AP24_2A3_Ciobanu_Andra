@@ -1,5 +1,7 @@
 package lab5;
 
+import lombok.Getter;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -8,12 +10,17 @@ import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.stream.Stream;
 
+@Getter
 public class Repository {
     private String directory;
     private Map<Person, List<Document>> documents = new HashMap<>();
 
-    public Repository(String directory) {
+    public Repository(String directory) throws InvalidRepositoryException {
         this.directory = directory;
+        Path dirPath = Paths.get(directory);
+        if (!Files.exists(dirPath) || !Files.isDirectory(dirPath)) {
+            throw new InvalidRepositoryException(new Exception(directory + " is not a valid directory"));
+        }
         loadDocuments();
     }
 

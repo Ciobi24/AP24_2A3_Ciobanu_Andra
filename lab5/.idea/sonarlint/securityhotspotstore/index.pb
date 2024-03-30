@@ -17,6 +17,18 @@ b
 P
  src/main/java/lab5/Document.java,8\6\86a38a14c0f45102413cefb85d789842a7a06704
 E
-src/repo/101_B/cv.txt,0\4\04e4aac3ca39fad9619f638758928b2a6dadfb26
-E
 src/repo/100_A/cv.txt,7\7\770fa7a33414c6e3c1097dacb345287c69a2daff
+O
+src/main/java/lab5/Command.java,2\f\2fdb4dd52732ba16a3a74850c02b0642901dd53a
+S
+#src/main/java/lab5/ViewCommand.java,4\3\43505562781579619fe3048afc58886f50186277
+U
+%src/main/java/lab5/ReportCommand.java,2\b\2bf0be12b0fe03ba439471f474b6f1e0d870e41b
+U
+%src/main/java/lab5/ExportCommand.java,f\e\fee99c8d6c8e196f17621d99e6c4c1ca477b03dc
+U
+%src/main/java/lab5/CommandReader.java,a\c\ac75736389df616071ca0db55ff1d28826a1134e
+K
+src/report/repo_report.html,b\3\b301d96a95bec2e4c00ecddee08aab4427c3ebbf
+D
+src/report/repo.json,c\0\c01ecb12fc61ee4fd2c48e076680056e23a8e913
