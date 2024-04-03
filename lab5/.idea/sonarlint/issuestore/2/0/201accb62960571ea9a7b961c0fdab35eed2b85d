@@ -1,10 +1,10 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ÚÓ™‹é1J$038cbb48-4105-4a66-b603-54133d7966c9
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ÚÓ™‹é1J$efb8c1a5-c206-43f4-970f-a849feec9bfe
 ƒ	java:S125
-"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8ãÓ™‹é1J$ac16dd6d-ebc3-43fb-9c8e-9d90e6e2bcb0
-m	java:S106"+Replace this use of System.out by a logger.(äìÎÆ8æÓ™‹é1J$44805d47-55d6-464f-929a-97d6c7f9ca2a
-m	java:S106%"+Replace this use of System.out by a logger.(äìÎÆ8èÓ™‹é1J$60986d2c-ad0e-4246-ada6-34d7190a2b3a
+"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8ãÓ™‹é1J$4368cea1-abfa-49eb-85fc-00c5f2c93841
+m	java:S106"+Replace this use of System.out by a logger.(äìÎÆ8æÓ™‹é1J$1b6639e4-3883-4b4a-9214-a66cec61c6ac
+m	java:S106%"+Replace this use of System.out by a logger.(äìÎÆ8èÓ™‹é1J$d24dd568-925e-41d3-ac83-9150980b673e
 x
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8êÓ™‹é1J$069779ea-7c03-4909-8d8c-5d6834902959
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8êÓ™‹é1J$f7dc56d1-586e-456b-94ad-f1c40599c61c
 u
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8êÓ™‹é1J$9900fa4d-537a-488f-9f00-11342d436ff2
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8êÓ™‹é1J$d89eb0d2-04bb-4260-9db9-4769eb3d1fd7
