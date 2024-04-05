@@ -1,7 +1,7 @@
 
-z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ÆªøÌè1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ÇªøÌè1
-G	java:S106"+Replace this use of System.out by a logger.(ËÑæ‰8ÍªøÌè1
-L	java:S106"+Replace this use of System.out by a logger.(›Äæ÷üÿÿÿÿ8ĞªøÌè1
-L	java:S106 "+Replace this use of System.out by a logger.(Ÿß³Úÿÿÿÿÿ8ÒªøÌè1
-G	java:S106&"+Replace this use of System.out by a logger.(¯Êù‹8ÒªøÌè1
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ÆªøÌè1J$86e64c50-3ce0-4481-9b67-fedde255ac05
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ÇªøÌè1J$343c7277-e0b6-4154-8de6-a99e796e1be4
+m	java:S106"+Replace this use of System.out by a logger.(ËÑæ‰8ÍªøÌè1J$eba8c420-28f2-4656-b387-8894bf2102bf
+r	java:S106"+Replace this use of System.out by a logger.(›Äæ÷üÿÿÿÿ8ĞªøÌè1J$b3390b49-4414-43a8-970c-119b17d7a81d
+r	java:S106 "+Replace this use of System.out by a logger.(Ÿß³Úÿÿÿÿÿ8ÒªøÌè1J$fc0c57e1-099d-4e39-97ec-4497cfbdea63
+m	java:S106&"+Replace this use of System.out by a logger.(¯Êù‹8ÒªøÌè1J$58a5bd8d-1475-408c-aed2-fc052f1ddff8

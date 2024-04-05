@@ -1,7 +1,9 @@
 package lab5;
 
 import lombok.Getter;
+import org.apache.poi.ss.usermodel.*;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -9,6 +11,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.stream.Stream;
+
 
 @Getter
 public class Repository {
@@ -115,5 +118,37 @@ public class Repository {
                 System.out.print(document.file().getName() + " ");
             System.out.println();
         }
+    }
+    public Map<String, Set<String>> readExcelFile(String filePath) throws DocumentRepositoryException {
+        Map<String, Set<String>> personAbilities = new HashMap<>();
+        try (FileInputStream fis = new FileInputStream(filePath)) {
+            Workbook workbook = WorkbookFactory.create(fis);
+            Sheet sheet = workbook.getSheetAt(0); // get the only sheet - 0
+
+            for (int rowIndex = 1; rowIndex < sheet.getPhysicalNumberOfRows(); rowIndex++) {
+                // For - starts with index 1 because first row is for names of the columns.
+                // Nr.crt.	Name	  Abilities
+                // 1	   Person1	   DevOps
+                // 2	   Person2	   Frontend
+                //eg from the abilities.xlsx
+                Row row = sheet.getRow(rowIndex);
+
+                String personName = row.getCell(1, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK).toString().trim();
+                Set<String> abilities = new HashSet<>();
+                for (int i = 2; i < row.getLastCellNum(); i++) { // First column is for index
+                    Cell cell = row.getCell(i, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                    String[] hobbies = cell.toString().trim().split(", "); // split the abilities, because is Excel File are written with commas.
+                    for (String hobby : hobbies) {
+                        if (!hobby.isEmpty()) {
+                            abilities.add(hobby);
+                        }
+                    }
+                }
+                personAbilities.put(personName, abilities);
+            }
+        } catch (IOException e) {
+            throw new DocumentRepositoryException("Error reading: " + e.getMessage());
+        }
+        return personAbilities;
     }
 }

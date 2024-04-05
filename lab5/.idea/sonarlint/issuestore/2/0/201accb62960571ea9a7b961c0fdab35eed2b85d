@@ -1,10 +1,21 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8ÚÓ™‹é1J$efb8c1a5-c206-43f4-970f-a849feec9bfe
-ƒ	java:S125
-"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8ãÓ™‹é1J$4368cea1-abfa-49eb-85fc-00c5f2c93841
-m	java:S106"+Replace this use of System.out by a logger.(äìÎÆ8æÓ™‹é1J$1b6639e4-3883-4b4a-9214-a66cec61c6ac
-m	java:S106%"+Replace this use of System.out by a logger.(äìÎÆ8èÓ™‹é1J$d24dd568-925e-41d3-ac83-9150980b673e
+‘
+java:S1192"IDefine a constant instead of duplicating this literal "src/repo" 3 times.(ÌÈ§£øÿÿÿÿ8ô€™úê1J$3d972b44-fc3e-4a71-b82b-5f8091123b05
+‹
+java:S1192""HDefine a constant instead of duplicating this literal "Error: " 3 times.(äìÎÆ8õ€™úê1J$4c557be9-dfcb-4fc0-8f68-096f4f723bd6
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–Ä¸œûÿÿÿÿ8÷€™úê1J$61c47a29-4856-4323-ba38-411b0ac3ac33
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8™úê1J$2d3713bc-ad2b-4878-9de1-1244078e9b8a
+m	java:S106""+Replace this use of System.out by a logger.(äìÎÆ8†™úê1J$70c63aac-59e7-4e77-8b7b-13cd4e8ccbd5
+m	java:S106,"+Replace this use of System.out by a logger.(äìÎÆ8ˆ™úê1J$575d0a93-e312-488d-9d1d-ed1a20a4d7db
+š
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(´Ú¥üÿÿÿÿ8í²Áúê1J$42faa13c-5722-4ba4-8485-350d2f78b202
+v
+java:S2864;"4Iterate over the "entrySet" instead of the "keySet".(‰Äñ8ñ²Áúê1J$7723ae4a-048d-4521-a9ee-3dba67a73906
+w
+java:S2864<"4Iterate over the "entrySet" instead of the "keySet".(‘’§¼8ñ²Áúê1J$ad2b7e18-1efb-40fb-a1ea-9f5c307a62fe
+r	java:S106a"+Replace this use of System.out by a logger.(Ý‡óßøÿÿÿÿ8“™úê1J$5e40d2ed-1bf2-4287-9788-4ccf0a77f8af
+m	java:S106c"+Replace this use of System.out by a logger.(¿×‡å8“™úê1J$c832c592-c4e6-4be2-b23e-551373fddc7c
+m	java:S106f"+Replace this use of System.out by a logger.(äìÎÆ8”™úê1J$a4d217a9-c24a-4e07-940b-b89205c9243e
 x
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8êÓ™‹é1J$f7dc56d1-586e-456b-94ad-f1c40599c61c
-u
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8êÓ™‹é1J$d89eb0d2-04bb-4260-9db9-4769eb3d1fd7
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8¸ùÞúê1J$e2ef8cbc-9ad6-4ba2-8891-2b3b535637a0
