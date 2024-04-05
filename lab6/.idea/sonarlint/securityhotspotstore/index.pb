@@ -11,3 +11,9 @@ U
 %src/main/java/start/ControlPanel.java,5\7\57fe0aec3af3bd72ea514c40b4f564a81b136ee1
 U
 %src/main/java/start/DrawingPanel.java,1\6\16e6d6cb8d783ac5ce6a044071d3432889a3a6c2
+R
+"src/main/java/start/GameState.java,d\1\d1d48711668dd77b71b73ce22ad5767e523faa3d
+U
+%src/main/java/start/ConsolePanel.java,b\6\b6391ca4297850f438877675792629f08e0525bc
+8
+joc.json,e\a\ea015ca8a55ce7468f0df879ee29c72f4a114743

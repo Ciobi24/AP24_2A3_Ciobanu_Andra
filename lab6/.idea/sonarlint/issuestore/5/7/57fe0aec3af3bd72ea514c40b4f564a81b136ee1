@@ -1,5 +1,11 @@
 
-Ä
-java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äêë³8ÜŞøé1J$b145d73d-8934-4f47-b188-322102690998
-É
-java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½ıÿÿÿÿ8İŞøé1J$8ec9cd97-e52c-4fb8-b159-47f713180222
+k
+java:S16044"(Make this anonymous inner class a lambda(¾œÈØ8—íéûê1J$7f849e00-740b-43e0-afc2-879f534e39c7
+p
+java:S1604:"(Make this anonymous inner class a lambda(×À¯óøÿÿÿÿ8—íéûê1J$6f94f542-3e06-4b79-ae9e-e66bc2959add
+p
+java:S1604H"(Make this anonymous inner class a lambda(›áÆüúÿÿÿÿ8—íéûê1J$15cb643c-5521-4fc4-8e44-81596045f3aa
+k
+java:S1604T"(Make this anonymous inner class a lambda(˜ëÓÕ8—íéûê1J$93b29e05-ff0e-4d34-84af-43688747850a
+~	java:S125#"<This block of commented-out lines of code should be removed.(àó®Æ8¤íéûê1J$37ab7ecd-584b-4d71-81ae-c78812fe1a15
+~	java:S125A"<This block of commented-out lines of code should be removed.(¨ìæË8¨íéûê1J$8b87595d-68db-434f-a7fe-01bebbb7b1a4

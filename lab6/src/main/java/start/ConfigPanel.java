@@ -1,47 +1,48 @@
 package start;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ConfigPanel
-        extends JPanel {
+public class ConfigPanel extends JPanel {
     final MainFrame frame;
     JLabel label;
-    JSpinner rowsSpinner;
-    JSpinner colsSpinner;
-
+    JSpinner spinnerR;
+    JSpinner spinnerC;
+    JButton buttonGenerare;
     public ConfigPanel(MainFrame frame) {
         this.frame = frame;
         init();
     }
+
     private void init() {
+        setLayout(new FlowLayout());
         //create the label and the spinner
         label = new JLabel("Grid size:");
-         rowsSpinner = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
-         colsSpinner = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
-         //create spinners for rows and cols, and the button
-        JButton newGameButton = new JButton("Create");
-        newGameButton.addActionListener(new ActionListener() {
+        spinnerR = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
+        spinnerC = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
+        buttonGenerare = new JButton("Generare Harta");
+        buttonGenerare.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                frame.getCanvas().setRows((int) rowsSpinner.getValue()+1);
-                frame.getCanvas().setCols((int) colsSpinner.getValue()+1);
-                frame.getCanvas().init(frame.getConfigPanel());
-                frame.getCanvas().repaint();
+                frame.joc = new GameState(getRows(), getCols());
+                frame.consolePanel.changePlayer(1);
+                frame.repaint();
             }
         });
         add(label); //JPanel uses FlowLayout by default
-        add(rowsSpinner);
-        add(colsSpinner);
-        add(newGameButton);
+        add(spinnerR);
+        add(spinnerC);
+        add(buttonGenerare);
+        //frame.pack();
     }
+
     public int getRows() {
-        return (int) rowsSpinner.getValue()+1;
+        return (int) spinnerR.getValue();
     }
 
     public int getCols() {
-        return (int) colsSpinner.getValue()+1;
+        return (int) spinnerC.getValue();
     }
 }
-
