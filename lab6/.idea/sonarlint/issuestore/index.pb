@@ -17,3 +17,5 @@ U
 %src/main/java/start/ConsolePanel.java,b\6\b6391ca4297850f438877675792629f08e0525bc
 8
 joc.json,e\a\ea015ca8a55ce7468f0df879ee29c72f4a114743
+O
+src/main/java/start/GameAI.java,f\9\f98fb23839e93ba8561f2574b006082127bbe86c

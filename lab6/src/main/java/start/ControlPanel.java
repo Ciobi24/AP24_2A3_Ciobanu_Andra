@@ -96,7 +96,7 @@ public class ControlPanel extends JPanel {
         g.fillRect(0, 0, frame.joc.getCanvasWidth(), frame.joc.getCanvasHeight());
         this.frame.canvasPanel.paintComponent(g);
         g.dispose();
-        File file = new File("joc.png");
+        File file = new File("src/Save/joc.png");
         try {
             ImageIO.write(buff, "png", file);
         } catch (IOException e) {

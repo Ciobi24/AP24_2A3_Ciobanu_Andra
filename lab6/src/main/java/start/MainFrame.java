@@ -15,7 +15,7 @@ public class MainFrame extends JFrame {
 
     public MainFrame() {
         super("My Drawing Application");
-        path = "./joc.json";
+        path = "src/Save/joc.json";
         culori = new Color[2];
         culori[0] = Color.PINK;
         culori[1] = Color.CYAN;
