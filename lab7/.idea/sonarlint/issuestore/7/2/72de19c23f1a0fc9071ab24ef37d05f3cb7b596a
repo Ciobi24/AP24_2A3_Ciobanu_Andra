@@ -1,0 +1,9 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(´š…‹þÿÿÿÿ8ªö„’ì1J$bcb3032d-28a8-4341-be12-66e425a1c147
+~	java:S125"<This block of commented-out lines of code should be removed.(ªò¡¥8þ‚á“ì1J$a680e275-8099-478d-87f6-5771dcf65881
+~
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8…ƒá“ì1J$849fa836-e0e9-4a53-b72b-10a4105fc1d2
+ƒ
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØŽúøÿÿÿÿ8…ƒá“ì1J$604429a9-ea14-4483-a9dc-9431c71f1ff3
+€
+java:S1144*"8Remove this unused private "addTokenToSequences" method.(š•°ïüÿÿÿÿ8†ƒá“ì1J$bc2e68c3-abb7-4f17-82a4-d72f4b9b7ed0
