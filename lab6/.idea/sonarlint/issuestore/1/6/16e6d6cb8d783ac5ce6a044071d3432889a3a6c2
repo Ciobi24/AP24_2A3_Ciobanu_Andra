@@ -1,12 +1,11 @@
 
 w
-java:S1066+"/Merge this if statement with the enclosing one.(Ü»®™ùÿÿÿÿ8æÜçûê1J$a2229d67-2118-4afc-89f1-33dcb0af864c
+java:S1066#"/Merge this if statement with the enclosing one.(Ü»®™ùÿÿÿÿ8æÜçûê1J$04320668-d78c-445e-b61f-e3e50ff81a01
 r
-java:S1066,"/Merge this if statement with the enclosing one.(Î³“Ë8æÜçûê1J$a938b33b-06e3-4bbd-b799-3f5e14ad8e18
+java:S1066$"/Merge this if statement with the enclosing one.(Î³“Ë8æÜçûê1J$52db97fe-8ce6-4cf2-85a5-76d8dd4d1b01
 r
-java:S1066-"/Merge this if statement with the enclosing one.(ÊÆ»¹8æÜçûê1J$bc2c35eb-38f3-400e-b779-c3e4b0a7677f
+java:S1066%"/Merge this if statement with the enclosing one.(ÊÆ»¹8æÜçûê1J$144a31db-b137-4e93-a62c-4d1ad9941c88
 u
-java:S1199."-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8çÜçûê1J$a01cb13a-c08f-49b9-b3f8-33f7b1442f09
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(Á‚ãóúÿÿÿÿ8÷Üçûê1J$fa605614-1b5a-4215-8136-ae632f78336e
+java:S1199&"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8çÜçûê1J$631c4852-6513-4989-ba57-0c5ed3e13a3e
 š
-java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(”ıÔùÿÿÿÿ8üÜçûê1J$a7751beb-689c-4f2f-99fe-98acfded9e20
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(”ıÔùÿÿÿÿ8üÜçûê1J$15aa26bd-6f73-4161-9403-7f9ffd474f7b

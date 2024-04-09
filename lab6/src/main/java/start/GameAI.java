@@ -1,1 +1,2 @@
-package start;
+package start;public class GameAI {
+}

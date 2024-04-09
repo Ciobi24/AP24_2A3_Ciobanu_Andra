@@ -3,6 +3,8 @@ package start;
 
 import java.beans.ConstructorProperties;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -20,6 +22,7 @@ public class GameState implements Serializable {
     int player;
     int lasStoneX;
     int lasStoneY;
+    private GameAI gameAI;
 
     public GameState(int rows, int cols) {
         this.rows = rows;
@@ -37,6 +40,23 @@ public class GameState implements Serializable {
         lasStoneX = -1;
         lasStoneY = -1;
         randomSticks();
+    }
+    public List<Move> getAvailableMoves() {
+        List<Move> availableMoves = new ArrayList<>();
+
+        // Check the positions adjacent to the last stone placed
+        int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        for (int[] direction : directions) {
+            int newRow = lasStoneX + direction[0];
+            int newCol = lasStoneY + direction[1];
+
+            // If the position is valid and not already occupied by a stone, it's a valid move
+            if (isValidPosition(newRow, newCol) && isFreeStone(newRow, newCol)) {
+                availableMoves.add(new Move(newRow, newCol));
+            }
+        }
+
+        return availableMoves;
     }
 
     private void randomSticks() {

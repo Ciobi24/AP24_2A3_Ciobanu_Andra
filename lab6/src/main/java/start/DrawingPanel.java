@@ -10,14 +10,6 @@ public class DrawingPanel extends JPanel {
     public DrawingPanel(MainFrame frame) {
         this.frame = frame;
         init();
-        /*addComponentListener(new ComponentAdapter() {
-            @Override
-            public void componentResized(ComponentEvent e){
-                frame.joc.setCanvasWidth(frame.canvasPanel.getWidth());
-                frame.joc.setCanvasHeight(frame.canvasPanel.getHeight());
-                frame.repaint();
-            }
-        });*/
     }
 
     final void init() {
@@ -75,10 +67,10 @@ public class DrawingPanel extends JPanel {
         paintGrid(g);
         paintSticks(g);
         paintStones(g);
-        cirlceLastStone(g);
+        circleLastStone(g);
     }
 
-    private void cirlceLastStone(Graphics2D g) {
+    private void circleLastStone(Graphics2D g) {
         if (this.frame.joc.lasStoneX != -1 && this.frame.joc.lasStoneY != -1)
             g.setColor(Color.MAGENTA);
 

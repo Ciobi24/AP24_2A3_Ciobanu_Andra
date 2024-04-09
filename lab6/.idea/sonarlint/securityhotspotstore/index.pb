@@ -15,7 +15,7 @@ R
 "src/main/java/start/GameState.java,d\1\d1d48711668dd77b71b73ce22ad5767e523faa3d
 U
 %src/main/java/start/ConsolePanel.java,b\6\b6391ca4297850f438877675792629f08e0525bc
-8
-joc.json,e\a\ea015ca8a55ce7468f0df879ee29c72f4a114743
 O
 src/main/java/start/GameAI.java,f\9\f98fb23839e93ba8561f2574b006082127bbe86c
+M
+src/main/java/start/Move.java,5\d\5d691a0d586c411f219868bd7ae8c188ff0c8ffe
