@@ -4,16 +4,22 @@ package classes;
 /*          Thread thread = new Thread(player);
             thread.start();                     */
 public class Main {
-    public static void main(String args[]) {
-        Main main = new Main();
-        main.compulsory();
-    }
+    public static void main(String[] args)
+    {
+        GameLogic logic = new GameLogic();
+        logic.generateTokens(100);
 
-    public void compulsory() {
-        Game game = new Game(4);
-        game.addPlayer(new Player("P1", game));
-        game.addPlayer(new Player("P2", game));
-//        game.addPlayer(new Player("P3", game));
-        game.play();
+        Timekeeper timeKeeper = new Timekeeper(60);
+        timeKeeper.start();
+        Player player1 = new Player("P1", 0);
+        Player player2 = new Player("P2", 1);
+        Player player3 = new Player("P3", 2);
+
+        logic.addPlayer(player1);
+        logic.addPlayer(player2);
+        logic.addPlayer(player3);
+
+        logic.startThreads();
+
     }
 }

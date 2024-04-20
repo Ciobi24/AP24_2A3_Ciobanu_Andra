@@ -1,0 +1,6 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åÃ–ëï1J$4d172a90-f41d-41d2-a452-8e9c3371e39a
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8øÃ–ëï1J$39fc2a6b-f71b-480c-9f62-a6840840941c
+]	java:S125"<This block of commented-out lines of code should be removed.(‹Äˆ€ùÿÿÿÿ8Ÿ´Ÿëï1
+m	java:S106"+Replace this use of System.out by a logger.(çÏ• 8øÃ–ëï1J$59e5972e-372f-4c29-aba1-2044c047b59c
