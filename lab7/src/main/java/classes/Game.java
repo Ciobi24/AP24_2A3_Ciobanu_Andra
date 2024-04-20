@@ -8,9 +8,10 @@ import java.util.*;
 public class Game {
     private final Bag bag;
     private final List<Player> players = new ArrayList<>();
-
+private int n;
     public Game(int n) {
         this.bag = new Bag(n);
+        this.n=n;
     }
 
     public void addPlayer(Player player) {

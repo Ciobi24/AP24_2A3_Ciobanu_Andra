@@ -1,9 +1,16 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(´š…‹þÿÿÿÿ8ªö„’ì1J$bcb3032d-28a8-4341-be12-66e425a1c147
-~	java:S125"<This block of commented-out lines of code should be removed.(ªò¡¥8þ‚á“ì1J$a680e275-8099-478d-87f6-5771dcf65881
+r
+java:S1066}"/Merge this if statement with the enclosing one.(ú¦æ¤8å¯Ìéï1J$f45799f9-22cf-4d29-a631-6958fdc10932
+
+java:S3973l"GUse indentation to denote the code conditionally executed by this "if".(Þ¸§°ùÿÿÿÿ8è¯Ìéï1J$223cf473-a330-4300-9779-d0b2024ef29c
+r	java:S106"+Replace this use of System.out by a logger.(´š…‹þÿÿÿÿ8ç²Ìéï1J$14e339f7-aa01-497b-9d53-c0d3b85c41a7
+l	java:S106 "+Replace this use of System.out by a logger.(·µ¾38è²Ìéï1J$03679752-f92d-4a11-b80a-a4b1ce161fce
+~	java:S125$"<This block of commented-out lines of code should be removed.(þìûÁ8ê²Ìéï1J$5dd094bd-6a34-454f-a60e-36b4f2a20816
+l	java:S106&"+Replace this use of System.out by a logger.(´»ÁF8ë²Ìéï1J$96c9bc75-d13b-4695-b0b5-a9991c6e1366
+•	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à«’ÿÿÿÿÿ8û²Ìéï1J$193ac91d-fa34-4026-bd0c-a89e82844c83
+ƒ	java:S125k"<This block of commented-out lines of code should be removed.(éÇ¿ùùÿÿÿÿ8€³Ìéï1J$8915ab3e-9699-4af1-945f-9e7d5141fa23
+•	java:S100q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·»§ðúÿÿÿÿ8³Ìéï1J$eadc9e46-a030-467d-9163-c021dbdbac55
+š
+java:S3776q"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(·»§ðúÿÿÿÿ8‚³Ìéï1J$d58bd5cb-63b3-4200-800b-4d402fef3722
 ~
-java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8…ƒá“ì1J$849fa836-e0e9-4a53-b72b-10a4105fc1d2
-ƒ
-java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØŽúøÿÿÿÿ8…ƒá“ì1J$604429a9-ea14-4483-a9dc-9431c71f1ff3
-€
-java:S1144*"8Remove this unused private "addTokenToSequences" method.(š•°ïüÿÿÿÿ8†ƒá“ì1J$bc2e68c3-abb7-4f17-82a4-d72f4b9b7ed0
+java:S1854‘"5Remove this useless assignment to local variable "i".(Êðûüÿÿÿÿ8‡³Ìéï1J$d4992a67-a281-4101-8ca8-9efbfda1edc5
