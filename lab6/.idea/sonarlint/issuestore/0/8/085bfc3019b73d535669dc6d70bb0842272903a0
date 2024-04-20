@@ -1,0 +1,44 @@
+
+M
+java:S1066Ö"/Merge this if statement with the enclosing one.(¢ÎñØ8şÉ•±ï1
+R
+java:S1066ç"/Merge this if statement with the enclosing one.(üîÖäùÿÿÿÿ8ÿÉ•±ï1
+M
+java:S1066ù"/Merge this if statement with the enclosing one.(¦¸Çº8ÿÉ•±ï1
+M
+java:S1066Š"/Merge this if statement with the enclosing one.(Œ‹¶ü8ÿÉ•±ï1
+b
+java:S2184u"ECast one of the operands of this subtraction operation to a "double".(ÅÏÃ8„Ê•±ï1
+b
+java:S2184u"ECast one of the operands of this subtraction operation to a "double".(ÅÏÃ8„Ê•±ï1
+D
+java:S1659""Declare "cols" on a separate line.(é½ËÍûÿÿÿÿ8ËÍ•±ï1
+L
+java:S1659"*Declare "canvasHeight" on a separate line.(çÌşÿÿÿÿ8ÌÍ•±ï1
+F
+java:S1659")Declare "boardHeight" on a separate line.(“şÀÇ8ÌÍ•±ï1
+E
+java:S1659"(Declare "cellHeight" on a separate line.(ñ¼‰ç8ÌÍ•±ï1
+D
+java:S1659""Declare "padY" on a separate line.(¢âÓƒÿÿÿÿÿ8ÍÍ•±ï1
+i
+java:S1659"GDeclare "blueStones" and all following declarations on a separate line.(¡éÚÙùÿÿÿÿ8ÍÍ•±ï1
+G	java:S1066"+Replace this use of System.out by a logger.(åÛµ¶8âÍ•±ï1
+L	java:S106>"+Replace this use of System.out by a logger.(ìÀÔÿÿÿÿÿ8ãÍ•±ï1
+L	java:S106B"+Replace this use of System.out by a logger.(Íœî€ùÿÿÿÿ8åÍ•±ï1
+;
+java:S2119P"Save and re-use this "Random".(Ïéçæ8®Ï•±ï1
+;
+java:S2119^"Save and re-use this "Random".(ñ…Ã8³Ï•±ï1
+o
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‰Ö³8ÔÏ•±ï1
+X	java:S125m"<This block of commented-out lines of code should be removed.(©ÕÒç8úÏ•±ï1
+M	java:S106"+Replace this use of System.out by a logger.(€ÕÂúÿÿÿÿ8‚Ğ•±ï1
+p
+java:S3776§"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ÆÃÑ¿8ŠĞ•±ï1
+b
+java:S1659Ò"DDeclare "upIndex" and all following declarations on a separate line.(Âå˜˜8”Ğ•±ï1
+M	java:S106·"+Replace this use of System.out by a logger.(í¶É‰ùÿÿÿÿ8«Ğ•±ï1
+M	java:S106º"+Replace this use of System.out by a logger.(ì‰Äûıÿÿÿÿ8¬Ğ•±ï1
+å
+java:S6541§"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 20 to 14, Nesting Level from 5 to 2, Number of Variables from 30 to 6.(ÆÃÑ¿8¹Ğ•±ï1

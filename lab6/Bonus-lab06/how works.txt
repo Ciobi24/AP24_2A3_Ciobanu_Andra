@@ -1,0 +1,13 @@
+
+
+AI-ul este unul nu foarte complex, dar care functioneaza ok si ofera o experienta competitiva.
+Adapterul specific pentru mouse intercepteaza orice click din partea playerului in obiectul de tip
+DrawingPanel, si cand o mutare se poate realiza, va specifica acest lucru in consola, si functiile de
+Draw vor plasa un "stone" in pozitia specifica unde playerul doreste sa mute. Prin functia "manageStone()"
+din DrawingPanel.java - fie cand jucatorul muta, fie cand calculatorul efectueaza o modificare, in 
+blueStone si redStone se va da campul de la care se vor alege vecinatatile pentru mutarile viitoare. 
+Functia "checkWinner()" va verifica starea specifica de dupa mutare si va inchide jocul daca BLUE sau RED
+castiga. Functia "performAIMove()" este destinata efectuarii mutarii calculatorului, pe baza pozitiei in care 
+se afla si ce posibilitati are spre a face o mutare sigura.
+Restul claselor destinate initializarii tablei, butoanelor specifice, colorarii de "stones"..etc. sunt similare,
+fara modificari semnificative. 

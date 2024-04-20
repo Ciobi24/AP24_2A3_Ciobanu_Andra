@@ -1,5 +1,8 @@
 package start;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class Move {
     private int row;
     private int col;

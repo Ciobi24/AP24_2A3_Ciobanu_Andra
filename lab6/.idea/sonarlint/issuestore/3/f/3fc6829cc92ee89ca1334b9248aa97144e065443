@@ -1,0 +1,14 @@
+
+E
+java:S1659"(Declare "colSpinner" on a separate line.(¤Ùğ…8ª˜±ï1
+D
+java:S1659
+""Declare "cols" on a separate line.(“µˆßøÿÿÿÿ8«˜±ï1
+v
+java:S1450"YRemove the "colSpinner" field and declare it as a local variable in the relevant methods.(¤Ùğ…8®˜±ï1
+q
+java:S1450"TRemove the "label" field and declare it as a local variable in the relevant methods.(ßë·²8¯˜±ï1
+x
+java:S1450	"VRemove the "newGame" field and declare it as a local variable in the relevant methods.(×ßî¡ûÿÿÿÿ8¯˜±ï1
+v
+java:S1450"YRemove the "rowSpinner" field and declare it as a local variable in the relevant methods.(¤Ùğ…8¯˜±ï1

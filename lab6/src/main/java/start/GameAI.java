@@ -1,2 +1,5 @@
-package start;public class GameAI {
+package start;
+
+public class GameAI {
 }
+///sz/cdzsvsgvdd

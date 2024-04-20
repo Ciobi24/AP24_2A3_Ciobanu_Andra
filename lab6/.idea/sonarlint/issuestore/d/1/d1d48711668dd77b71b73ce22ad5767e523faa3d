@@ -1,51 +1,53 @@
 
 s
-java:S1066Ι"/Merge this if statement with the enclosing one.(ΐΩρ8­θήϋκ1J$536b141b-7da4-42b2-87d1-06cb39bed20b
+java:S1066Ι"/Merge this if statement with the enclosing one.(ΐΩρ8­θήϋκ1J$b20719cf-ce0f-45af-8aa8-37a50df8e2e1
 s
-java:S1066Ξ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$89f309f8-48e2-47ae-8d19-29a31e495d99
+java:S1066Ξ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$c3a5fe63-3260-4e8f-9be3-2ca0771b67f3
 s
-java:S1066Σ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$8b060c21-88a9-46b0-b060-fb93b5676014
+java:S1066Σ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$093e820a-e98d-48bc-8f21-d8c035f97405
 s
-java:S1066Ψ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$dfc126f4-e62c-4079-9b36-0c9778233599
+java:S1066Ψ"/Merge this if statement with the enclosing one.(ΐΩρ8®θήϋκ1J$1749cee3-23f5-4a24-94d4-99bf6011d27e
 ™
-java:S1104"WMake canvasWidth a static final constant or non-public and provide accessors if needed.(Ι²§Z8°θήϋκ1J$cc837a53-a4f0-4754-8a25-e7563d21a299
+java:S1104"WMake canvasWidth a static final constant or non-public and provide accessors if needed.(Ι²§Z8°θήϋκ1J$21c2a894-e2a0-494c-8391-e1f726e82ec8
 
-java:S1104"XMake canvasHeight a static final constant or non-public and provide accessors if needed.(Ι²§Z8°θήϋκ1J$81e69c89-2a19-4385-a860-b1bed8d169c9
+java:S1104"XMake canvasHeight a static final constant or non-public and provide accessors if needed.(Ι²§Z8°θήϋκ1J$7e1b4800-f120-4b56-ba5c-73b8ae0f6fd5
 l
-java:S1659"*Declare "canvasHeight" on a separate line.(Ι²§Z8ηιήϋκ1J$4bea248c-cc15-4978-af0b-7a5fd68bdffd
+java:S1659"*Declare "canvasHeight" on a separate line.(Ι²§Z8ηιήϋκ1J$b65aa1f6-9acb-4794-ae14-12794afe1250
 j
-java:S1659""Declare "padY" on a separate line.(ΆβΣƒÿÿÿÿÿ8ηιήϋκ1J$5cc15bbb-a9ec-4618-9da8-97da98ed8b73
+java:S1659""Declare "padY" on a separate line.(ΆβΣƒÿÿÿÿÿ8ηιήϋκ1J$61eae37c-2fa3-4ff3-9ee4-c5b6c7abfd0c
 j
-java:S1659""Declare "cols" on a separate line.(ι½ΛΝϋÿÿÿÿ8ηιήϋκ1J$5f7e5f14-5f23-465d-bab3-1f0441ea9455
+java:S1659""Declare "cols" on a separate line.(ι½ΛΝϋÿÿÿÿ8ηιήϋκ1J$bafc00fa-a959-476f-9bf7-1cc371f65237
 l
-java:S1659")Declare "boardHeight" on a separate line.(“ώΐΗ8ηιήϋκ1J$454ad377-7329-410b-b7a7-b73fee55e2a9
+java:S1659")Declare "boardHeight" on a separate line.(“ώΐΗ8ηιήϋκ1J$ae772d30-70dc-4e64-a7b3-991af084015e
 k
-java:S1659"(Declare "cellHeight" on a separate line.(ρΌ‰η8ηιήϋκ1J$e185dece-6710-4d75-84b0-8f2d9680c850
+java:S1659"(Declare "cellHeight" on a separate line.(ρΌ‰η8ηιήϋκ1J$6d77d49e-cb76-4b0a-a174-1be28244e62a
+J
+java:S1948"(Make "gameAI" transient or serializable.(τ¤ρϊÿÿÿÿÿ8›ψ›·μ1
 t
-java:S1197",Move the array designators [][] to the type.(άφηνωÿÿÿÿ8κιήϋκ1J$1743727b-1ee0-4e47-a2d9-7818c16b6a0b
+java:S1197",Move the array designators [][] to the type.(άφηνωÿÿÿÿ8κιήϋκ1J$c1ed5481-df01-43cb-9c13-290c11a0aad8
 
-java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(’Εϋÿÿÿÿ8κιήϋκ1J$34b03bbd-3fc1-479b-a4ff-abf9511bdc9b
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(’Εϋÿÿÿÿ8κιήϋκ1J$64966576-2b86-4ff7-9d3f-9c17185eb18d
 g
-java:S1659A"Declare "j" on a separate line.(Ϋƒ“ωÿÿÿÿ8μιήϋκ1J$9662bdd6-78f3-4a79-a8da-21a0104137c0
-~	java:S125?"<This block of commented-out lines of code should be removed.(Ϊ›ΰ8νιήϋκ1J$88000720-0a7e-4435-a95e-4708fbd1317f
+java:S1659A"Declare "j" on a separate line.(Ϋƒ“ωÿÿÿÿ8μιήϋκ1J$1113f108-5b49-493f-a0bf-79f215ad8190
+~	java:S125?"<This block of commented-out lines of code should be removed.(Ϊ›ΰ8νιήϋκ1J$92dc11db-c997-4189-9904-7b25127144c7
 b
-java:S1659F"Declare "y" on a separate line.(Ρ®³8νιήϋκ1J$75177089-a7f4-44a8-9873-3046b6256345
+java:S1659F"Declare "y" on a separate line.(Ρ®³8νιήϋκ1J$679376e3-f1a0-42c4-afe6-fcfe5b1bf60c
 q
-java:S2140E")Use "java.util.Random.nextInt()" instead.(³¶ΌΚόÿÿÿÿ8νιήϋκ1J$73aa47cc-d39b-4d04-9be1-b07d64d0fd91
-~	java:S125v"<This block of commented-out lines of code should be removed.(»Ό«¨8οιήϋκ1J$a5fb0f8a-8fbe-488c-89d1-290af8ea5873
+java:S2140E")Use "java.util.Random.nextInt()" instead.(³¶ΌΚόÿÿÿÿ8νιήϋκ1J$c206dda0-a668-4843-ad5b-40db89ec8cf4
+~	java:S125v"<This block of commented-out lines of code should be removed.(»Ό«¨8οιήϋκ1J$a6e8e832-0118-4f71-835a-43166d3488b2
 …
-java:S1126"AReplace this if-then-else statement by a single return statement.(•Ύμ“8τιήϋκ1J$70806ebc-b840-4715-a2bc-bf56cfd1c101
+java:S1126"AReplace this if-then-else statement by a single return statement.(•Ύμ“8τιήϋκ1J$c4444852-a95c-4cd0-a652-7be71cc2443f
 h
-java:S1659™"Declare "y" on a separate line.(΅Κ²‘ώÿÿÿÿ8φιήϋκ1J$48521e40-8092-4ae4-bd1f-421f761531ff
+java:S1659™"Declare "y" on a separate line.(΅Κ²‘ώÿÿÿÿ8φιήϋκ1J$f0c2822c-d9b8-402d-be7a-da11eb1ae7c5
 
-java:S1126©"AReplace this if-then-else statement by a single return statement.(άβασϋÿÿÿÿ8χιήϋκ1J$31dd68b1-7cba-40b3-b0ab-b3c1d13b91d8
+java:S1126©"AReplace this if-then-else statement by a single return statement.(άβασϋÿÿÿÿ8χιήϋκ1J$76f300ed-a6db-4fe7-b3c2-8a7feabeb631
 
-java:S1126Ή"AReplace this if-then-else statement by a single return statement.(Ύ¬ΤΗψÿÿÿÿ8χιήϋκ1J$a23a240a-efef-4fc3-bc26-c73aebecd254
+java:S1126Ή"AReplace this if-then-else statement by a single return statement.(Ύ¬ΤΗψÿÿÿÿ8χιήϋκ1J$7eb8d17c-03c6-438b-929a-09788699f5c6
 …
-java:S1126Ώ"AReplace this if-then-else statement by a single return statement.(―€«ΰ8ψιήϋκ1J$b42eedc9-29c8-4156-8d18-f0809fd0d63e
+java:S1126Ώ"AReplace this if-then-else statement by a single return statement.(―€«ΰ8ψιήϋκ1J$a1556ede-970f-4302-8251-045fdd147a29
 ›
-java:S3776Δ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ή½¦Ίϋÿÿÿÿ8ψιήϋκ1J$2a25811b-7f6f-48f6-b1d1-a38941844577
+java:S3776Δ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ή½¦Ίϋÿÿÿÿ8ψιήϋκ1J$5869fece-a06f-4130-b95b-d9698d2d6b85
 h
-java:S1659Ε"Declare "y" on a separate line.(΅Κ²‘ώÿÿÿÿ8ψιήϋκ1J$3b1a4fd8-6c16-4715-8125-1010be9acd07
-L
-java:S1068"*Remove this unused "gameAI" private field.(τ¤ρϊÿÿÿÿÿ8ϊΎέ¨λ1
+java:S1659Ε"Declare "y" on a separate line.(΅Κ²‘ώÿÿÿÿ8ψιήϋκ1J$5bd1c2c1-37a5-4e0d-a04a-8f2a86a80bd5
+r
+java:S1068"*Remove this unused "gameAI" private field.(τ¤ρϊÿÿÿÿÿ8ϊΎέ¨λ1J$28e99f10-9825-4dad-a31c-24339a83431c

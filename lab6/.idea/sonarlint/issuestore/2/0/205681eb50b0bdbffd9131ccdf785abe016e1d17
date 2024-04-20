@@ -1,0 +1,46 @@
+
+F
+java:S1066Ú"/Merge this if statement with the enclosing one.(¢ÎñØ
+K
+java:S1066ë"/Merge this if statement with the enclosing one.(üîÖäùÿÿÿÿ
+F
+java:S1066ı"/Merge this if statement with the enclosing one.(¦¸Çº
+F
+java:S1066"/Merge this if statement with the enclosing one.(Œ‹¶ü
+[
+java:S2184x"ECast one of the operands of this subtraction operation to a "double".(ÅÏÃ
+[
+java:S2184x"ECast one of the operands of this subtraction operation to a "double".(ÅÏÃ
+=
+java:S1659""Declare "cols" on a separate line.(é½ËÍûÿÿÿÿ
+E
+java:S1659"*Declare "canvasHeight" on a separate line.(çÌşÿÿÿÿ
+?
+java:S1659")Declare "boardHeight" on a separate line.(“şÀÇ
+>
+java:S1659"(Declare "cellHeight" on a separate line.(ñ¼‰ç
+=
+java:S1659""Declare "padY" on a separate line.(¢âÓƒÿÿÿÿÿ
+b
+java:S1659"GDeclare "blueStones" and all following declarations on a separate line.(¡éÚÙùÿÿÿÿ
+K
+java:S1172)"0Remove this unused method parameter "colStones".(¼íÔıúÿÿÿÿ
+@	java:S106="+Replace this use of System.out by a logger.(åÛµ¶
+E	java:S106D"+Replace this use of System.out by a logger.(ìÀÔÿÿÿÿÿ
+E	java:S106H"+Replace this use of System.out by a logger.(Íœî€ùÿÿÿÿ
+4
+java:S2119V"Save and re-use this "Random".(Ïéçæ
+4
+java:S2119d"Save and re-use this "Random".(ñ…Ã
+h
+java:S3776i"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‰Ö³
+Q	java:S125p"<This block of commented-out lines of code should be removed.(©ÕÒç
+F	java:S106‘"+Replace this use of System.out by a logger.(€ÕÂúÿÿÿÿ
+i
+java:S3776«"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ÆÃÑ¿
+[
+java:S1659Ö"DDeclare "upIndex" and all following declarations on a separate line.(Âå˜˜
+F	java:S106»"+Replace this use of System.out by a logger.(í¶É‰ùÿÿÿÿ
+F	java:S106¾"+Replace this use of System.out by a logger.(ì‰Äûıÿÿÿÿ
+Ş
+java:S6541«"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 20 to 14, Nesting Level from 5 to 2, Number of Variables from 30 to 6.(ÆÃÑ¿
