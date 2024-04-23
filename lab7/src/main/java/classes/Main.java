@@ -1,16 +1,16 @@
 package classes;
 
-//la clasa care implementeaza runnable se face functia run dar se apeleaza functia START!!!!!!!!
-/*          Thread thread = new Thread(player);
-            thread.start();                     */
-public class Main {
-    public static void main(String[] args)
-    {
-        GameLogic logic = new GameLogic();
-        logic.generateTokens(100);
+import java.util.concurrent.atomic.AtomicBoolean;
 
-        Timekeeper timeKeeper = new Timekeeper(60);
-        timeKeeper.start();
+public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        AtomicBoolean isTimeFinished = new AtomicBoolean(false);
+        GameLogic logic = GameLogic.getInstance(isTimeFinished);
+        logic.generateTokens(10);
+
+        Timekeeper timeKeeper = new Timekeeper(3, isTimeFinished);
+        timeKeeper.setDaemon(true);
+
         Player player1 = new Player("P1", 0);
         Player player2 = new Player("P2", 1);
         Player player3 = new Player("P3", 2);
@@ -19,7 +19,10 @@ public class Main {
         logic.addPlayer(player2);
         logic.addPlayer(player3);
 
+        timeKeeper.start();
         logic.startThreads();
 
+        timeKeeper.join();
+        logic.findWinner();
     }
 }

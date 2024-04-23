@@ -11,36 +11,45 @@ import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.SimpleGraph;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class GameLogic
 {
+    static public GameLogic instance = null;
     public final Object monitor = new Object();
     public int currentTurn = 0;
     public boolean isFirstThreadEntered = false;
     List<Player> playerThreads = new ArrayList<>();
     Random rand = new Random();
     int tokenCount;
+    AtomicBoolean isTimeFinished;
     ArrayList<Pair> tokens = new ArrayList<>();
 
     boolean isBagEmpty = false;
 
     public boolean isInUse = false;
+
+    public GameLogic(AtomicBoolean isTimeFinished) {
+        this.isTimeFinished = isTimeFinished;
+    }
+    public static  GameLogic getInstance(AtomicBoolean isTimeFinished)
+    {
+        if(instance == null)
+        {
+            instance = new GameLogic(isTimeFinished);
+        }
+        return instance;
+    }
+
     public void generateTokens(int tokenCount)
     {
         this.tokenCount = tokenCount;
-        Set<Integer> randomNumbers = new HashSet<>();
-
-        int i1 = rand.nextInt(100);
-        int i1copy = i1;
-        int ik = -1;
-
-        for(int i = 1; i < tokenCount; i++)
-        {
-            ik = rand.nextInt(100);
-            tokens.add(new Pair(i1, ik));
-            i1 = ik;
+        for (int i = 1; i <= tokenCount; i++) {
+            for (int j = i + 1; j <= tokenCount; j++) {
+                tokens.add(new Pair(i, j));
+            }
         }
-        tokens.add(new Pair(ik, i1copy));
+        Collections.shuffle((List<?>) tokens);
     }
 
     public synchronized List<Pair> extractTokens(int count)
@@ -56,10 +65,11 @@ public class GameLogic
             extractedTokens.add(tokens.get(randomToken));
             tokens.remove(randomToken);
         }
-        if(tokens.isEmpty())
+        if(tokens.isEmpty()||isTimeFinished.get())
         {
             findWinner();
             this.isBagEmpty = true;
+            this.notifyAll();
         }
         return extractedTokens;
     }
@@ -87,17 +97,36 @@ public class GameLogic
 
             PatonCycleBase<Integer, DefaultEdge> cycleDetector = new PatonCycleBase<>(undirectedGraph);
 
-            System.out.println("For player: " + playerThread.name + " found: " + cycleDetector.getCycleBasis().getCycles().size() + " length cycle.");
+            System.out.println("For player: " + playerThread.name + " found: " + cycleDetector.getCycleBasis().getCycles().size() + " cycles.");
+            System.out.println(cycleDetector.getCycleBasis().getCycles());
 
-            if(cycleDetector.getCycleBasis().getCycles().size() > maxCycle)
+            int currentMaxCycle = 0;
+            for(var cycle : cycleDetector.getCycleBasis().getCycles())
             {
-                maxCycle = cycleDetector.getCycleBasis().getCycles().size();
+                if(cycle.size() > currentMaxCycle)
+                {
+                    currentMaxCycle = cycle.size();
+                }
+            }
+
+            System.out.println(playerThread.name +"'s longest cycle: " + currentMaxCycle);
+
+            if(currentMaxCycle >= maxCycle)
+            {
+                maxCycle = currentMaxCycle;
                 winnerPlayer = playerThread;
             }
 
         }
 
-        System.out.println("The player: " + winnerPlayer.name + " has won the game!");
+        if(maxCycle == 0 || winnerPlayer == null)
+        {
+            System.out.println("No winner!");
+        }
+        else
+            System.out.println("The player: " + winnerPlayer.name + " has won the game!");
+
+        System.exit(0);
     }
     public void addPlayer(Player player)
     {
