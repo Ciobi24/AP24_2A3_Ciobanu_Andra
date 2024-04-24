@@ -8,7 +8,7 @@ public class Main {
         GameLogic logic = GameLogic.getInstance(isTimeFinished);
         logic.generateTokens(10);
 
-        Timekeeper timeKeeper = new Timekeeper(3, isTimeFinished);
+        Timekeeper timeKeeper = new Timekeeper(6, isTimeFinished);
         timeKeeper.setDaemon(true);
 
         Player player1 = new Player("P1", 0);

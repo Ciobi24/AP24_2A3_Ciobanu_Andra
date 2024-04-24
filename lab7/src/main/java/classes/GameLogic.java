@@ -1,14 +1,8 @@
 package classes;
 import org.jgrapht.Graph;
-import org.jgrapht.graph.DefaultEdge;
-import org.jgrapht.graph.DefaultUndirectedGraph;
+import org.jgrapht.graph.*;
 import org.jgrapht.alg.cycle.PatonCycleBase;
-
-import org.jgrapht.Graph;
-import org.jgrapht.alg.cycle.HawickJamesSimpleCycles;
-import org.jgrapht.alg.cycle.CycleDetector;
 import org.jgrapht.graph.DefaultEdge;
-import org.jgrapht.graph.SimpleGraph;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -29,7 +23,7 @@ public class GameLogic
 
     public boolean isInUse = false;
 
-    private GameLogic(AtomicBoolean isTimeFinished) {
+    public GameLogic(AtomicBoolean isTimeFinished) {
         this.isTimeFinished = isTimeFinished;
     }
     public static  GameLogic getInstance(AtomicBoolean isTimeFinished)
@@ -94,21 +88,26 @@ public class GameLogic
             {
                 undirectedGraph.addEdge(pair.first, pair.second);
             }
-
-            PatonCycleBase<Integer, DefaultEdge> cycleDetector = new PatonCycleBase<>(undirectedGraph);
-
-            System.out.println("For player: " + playerThread.name + " found: " + cycleDetector.getCycleBasis().getCycles().size() + " cycles.");
-            System.out.println(cycleDetector.getCycleBasis().getCycles());
-
             int currentMaxCycle = 0;
-            for(var cycle : cycleDetector.getCycleBasis().getCycles())
+            if(satisfiesOresCondition(undirectedGraph))
             {
-                if(cycle.size() > currentMaxCycle)
-                {
-                    currentMaxCycle = cycle.size();
+                maxCycle = 99999; //winner
+                winnerPlayer = playerThread;
+                System.out.println("Inteligent!!!");
+                System.out.println(findHamiltonianCycle(undirectedGraph));
+            }
+            else {
+                PatonCycleBase<Integer, DefaultEdge> cycleDetector = new PatonCycleBase<>(undirectedGraph);
+
+                System.out.println("For player: " + playerThread.name + " found: " + cycleDetector.getCycleBasis().getCycles().size() + " cycles.");
+                System.out.println(cycleDetector.getCycleBasis().getCycles());
+
+                for (var cycle : cycleDetector.getCycleBasis().getCycles()) {
+                    if (cycle.size() > currentMaxCycle) {
+                        currentMaxCycle = cycle.size();
+                    }
                 }
             }
-
             System.out.println(playerThread.name +"'s longest cycle: " + currentMaxCycle);
 
             if(currentMaxCycle >= maxCycle)
@@ -128,6 +127,53 @@ public class GameLogic
 
         System.exit(0);
     }
+    private boolean satisfiesOresCondition(Graph<Integer, DefaultEdge> graph) {
+        int n = graph.vertexSet().size();
+        for (Integer v : graph.vertexSet()) {
+            for (Integer w : graph.vertexSet()) {
+                if (!v.equals(w) && !graph.containsEdge(v, w)) {
+                    int degV = graph.degreeOf(v);
+                    int degW = graph.degreeOf(w);
+                    if (degV + degW < n) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    private List<Integer> findHamiltonianCycle(Graph<Integer, DefaultEdge> graph) {
+        List<Integer> cycle = new ArrayList<>();
+        boolean[] visited = new boolean[graph.vertexSet().size()];
+
+        cycle.add(0);
+        visited[0] = true;
+        if (findHamiltonianCycleRecursive(graph, cycle, visited, 0)) {
+            return cycle;
+        } else {
+            return new ArrayList<>();
+        }
+    }
+    private boolean findHamiltonianCycleRecursive(Graph<Integer, DefaultEdge> graph, List<Integer> cycle, boolean[] visited, int currentNode) {
+        if (cycle.size() == graph.vertexSet().size() && graph.containsEdge(cycle.get(0), cycle.get(cycle.size() - 1))) {
+            return true;
+        }
+        for (Integer adjacentNode : graph.vertexSet()) {
+            if (!visited[adjacentNode] && graph.containsEdge(currentNode, adjacentNode)) {
+                visited[adjacentNode] = true;
+                cycle.add(adjacentNode);
+
+                if (findHamiltonianCycleRecursive(graph, cycle, visited, adjacentNode)) {
+                    return true;
+                }
+                cycle.removeLast();
+                visited[adjacentNode] = false;
+            }
+        }
+        return false;
+    }
+
     public void addPlayer(Player player)
     {
         player.game = this;
