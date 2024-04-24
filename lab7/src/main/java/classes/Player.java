@@ -43,7 +43,7 @@ public class Player extends Thread {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                System.out.print("Player: " + this.name + " extracted: " + "!!!!!!!!!!!!!!!!" +game.isTimeFinished);
+                System.out.print("Player: " + this.name + " extracted: ");
                 playerTokens.addAll(tokens);
                 for (var token : tokens) {
                     System.out.print("(" + token.first + " " + token.second + ") ");

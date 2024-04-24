@@ -29,7 +29,7 @@ public class GameLogic
 
     public boolean isInUse = false;
 
-    public GameLogic(AtomicBoolean isTimeFinished) {
+    private GameLogic(AtomicBoolean isTimeFinished) {
         this.isTimeFinished = isTimeFinished;
     }
     public static  GameLogic getInstance(AtomicBoolean isTimeFinished)

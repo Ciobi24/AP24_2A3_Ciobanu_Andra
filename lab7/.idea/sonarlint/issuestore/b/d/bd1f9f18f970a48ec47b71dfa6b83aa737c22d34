@@ -1,33 +1,33 @@
 
 —
-java:S1104"TMake instance a static final constant or non-public and provide accessors if needed.(ŒéñŸ8†’óªğ1J$eff3b72f-dde0-46ad-a88d-6a38eaa707e4
+java:S1104"TMake instance a static final constant or non-public and provide accessors if needed.(ŒéñŸ8†’óªğ1J$9f2ba010-8fb1-4478-b362-1ebe68259459
 š
-java:S1104"WMake currentTurn a static final constant or non-public and provide accessors if needed.(üğé8àË‚§ğ1J$8a778fdd-545f-4427-a9ee-c035fd85e4e3
+java:S1104"WMake currentTurn a static final constant or non-public and provide accessors if needed.(üğé8àË‚§ğ1J$56d912a6-0b50-481a-a41e-c83b7263fa4c
 £
-java:S1104"`Make isFirstThreadEntered a static final constant or non-public and provide accessors if needed.(ì²¯›8áË‚§ğ1J$943265a0-4de9-4eb1-aca1-24f2e223bdeb
+java:S1104"`Make isFirstThreadEntered a static final constant or non-public and provide accessors if needed.(ì²¯›8áË‚§ğ1J$432bd493-ccdc-4ef1-aa4c-2e4326c5c613
 ›
-java:S1104"SMake isInUse a static final constant or non-public and provide accessors if needed.(™ì‘µşÿÿÿÿ8áË‚§ğ1J$652e96dd-9408-4d85-94f5-3787ce7354c7
+java:S1104"SMake isInUse a static final constant or non-public and provide accessors if needed.(™ì‘µşÿÿÿÿ8áË‚§ğ1J$7b62a8b0-ebe7-448a-9507-72869e407e68
 q
-java:S1444".Make this "public static instance" field final(ŒéñŸ8ˆ’óªğ1J$2e34fcfc-e54e-4417-aa12-1f6d533b8346
+java:S1444".Make this "public static instance" field final(ŒéñŸ8ˆ’óªğ1J$f9b1f070-b156-431f-8de0-b86da9a50205
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŒéñŸ8Î“óªğ1J$6d5be68c-4954-4f8e-af50-bb4e8edbc3f6
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŒéñŸ8Î“óªğ1J$59afbb42-7497-4411-8b08-f4f61d328b75
 o
-java:S19054"'Remove this unnecessary cast to "List".(¹³Ï„ÿÿÿÿÿ8¡Öôªğ1J$5b7e4828-e5ff-43ba-ba18-41585c39266a
+java:S19054"'Remove this unnecessary cast to "List".(¹³Ï„ÿÿÿÿÿ8¡Öôªğ1J$1cc60cf6-93b3-4e63-936d-b6f7ac329c62
 š
-java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(‘ƒâæüÿÿÿÿ8øÚ‰§ğ1J$d37b3685-fe7c-440c-a439-c9eeca25ccaa
-m	java:S106d"+Replace this use of System.out by a logger.(ŒŸ‹³8ûÚ‰§ğ1J$262721e3-2e7f-4859-8337-fcea9fd7d922
-m	java:S106e"+Replace this use of System.out by a logger.(Ùİé8üÚ‰§ğ1J$3574d7a9-136e-4c9f-b33a-1fb28b32f424
-m	java:S106p"+Replace this use of System.out by a logger.(ß‡ïÚ8ıÚ‰§ğ1J$4321345f-590f-4f75-8fa2-98caf11ad491
-m	java:S106|"+Replace this use of System.out by a logger.(…Æğº8şÚ‰§ğ1J$cb0e0295-ef67-4331-a4a6-f6c989d2497d
-m	java:S106"+Replace this use of System.out by a logger.(’é¿•8şÚ‰§ğ1J$d0f3de17-fc4c-44bf-af4c-d1f31ee25df4
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(‘ƒâæüÿÿÿÿ8øÚ‰§ğ1J$86878c7b-d06e-4364-9369-c1d9f77d6d97
+m	java:S106d"+Replace this use of System.out by a logger.(ŒŸ‹³8ûÚ‰§ğ1J$4c1c773e-a359-4d83-9781-e52d82eba332
+m	java:S106e"+Replace this use of System.out by a logger.(Ùİé8üÚ‰§ğ1J$aae83da4-aea7-41c2-aecc-f8108be5073d
+m	java:S106p"+Replace this use of System.out by a logger.(ß‡ïÚ8ıÚ‰§ğ1J$80c9e122-bb06-4894-b2a2-ebfab83f3e45
+m	java:S106|"+Replace this use of System.out by a logger.(…Æğº8şÚ‰§ğ1J$79863ae5-0b89-4a05-95a5-5edc8d731f4b
+m	java:S106"+Replace this use of System.out by a logger.(’é¿•8şÚ‰§ğ1J$82d15c2b-3786-4c03-b190-01986c414754
 a
-java:S1128"Remove this duplicated import.(Ì‘²8¬Í‚§ğ1J$39107e5b-ee4a-4196-844d-441e0502e6c1
+java:S1128"Remove this duplicated import.(Ì‘²8¬Í‚§ğ1J$4686ec5c-9157-4b0b-92bc-0437f1040a1b
 ’
-java:S1128"JRemove this unused import 'org.jgrapht.alg.cycle.HawickJamesSimpleCycles'.(•­øÿÿÿÿ8©Öôªğ1J$49797bfd-e5f7-4983-a648-241352102046
+java:S1128"JRemove this unused import 'org.jgrapht.alg.cycle.HawickJamesSimpleCycles'.(•­øÿÿÿÿ8©Öôªğ1J$31d43d69-8c6b-40dc-8147-b6e40642eb66
 ˆ
-java:S1128	"@Remove this unused import 'org.jgrapht.alg.cycle.CycleDetector'.(Ìõ¸ğøÿÿÿÿ8ªÖôªğ1J$4fe8559d-5581-4ca5-acd2-c86857f375d6
+java:S1128	"@Remove this unused import 'org.jgrapht.alg.cycle.CycleDetector'.(Ìõ¸ğøÿÿÿÿ8ªÖôªğ1J$6a63a4a0-f7b3-487c-9728-abe9564b5d86
 f
 java:S1128
-"Remove this duplicated import.(á¿Ìªşÿÿÿÿ8®Í‚§ğ1J$497fd588-66fe-4672-98bb-0792fc8f6e2b
+"Remove this duplicated import.(á¿Ìªşÿÿÿÿ8®Í‚§ğ1J$13cebe3d-3a1f-4c09-8bb4-62aecf2e9d89
 ‚
-java:S1128":Remove this unused import 'org.jgrapht.graph.SimpleGraph'.(Ú¸¯üúÿÿÿÿ8ªÖôªğ1J$17011ec9-1a33-41e7-b31a-5e664945fd07
+java:S1128":Remove this unused import 'org.jgrapht.graph.SimpleGraph'.(Ú¸¯üúÿÿÿÿ8ªÖôªğ1J$08415d73-e5c8-44b9-a55b-779fcf94e82b
