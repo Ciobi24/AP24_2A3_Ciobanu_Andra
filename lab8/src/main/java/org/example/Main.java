@@ -1,49 +1,46 @@
 package org.example;
 
-import java.sql.Connection;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         try {
-            Connection connection = Database.getConnection();
-//            DatabaseSetup.setupDatabase(connection);
-            AuthorDAO authorDao = new AuthorDAO();
+            Database.createAuthorsTable();
+            Database.createGenresTable();
+            Database.createBooksTable();
 
-            String authorName1 = "Mihai";
-            String authorName2 = "Ion";
 
-            authorDao.create(authorName1);
-            authorDao.create(authorName2);
-            System.out.println("Authors added to the database.");
+            AuthorDAO authorDAO = new AuthorDAO();
+            authorDAO.create("William Shakespeare");
+            authorDAO.create("J.K.Rowling");
 
-            Integer authorId1 = authorDao.findByName(authorName1);
-            if (authorId1 != null) {
-                System.out.println("Found " + authorName1 + " with ID: " + authorId1);
-            } else {
-                System.out.println(authorName1 + " not found in the database.");
+            System.out.println(new AuthorDAO().findByName("William Shakespeare"));
+            System.out.println(new AuthorDAO().findAll());
+
+            GenreDAO genreDAO = new GenreDAO();
+            genreDAO.create("Tragedy");
+            genreDAO.create("Science Fiction");
+            System.out.println(new GenreDAO().findAll());
+
+
+            Book romeoAndJuliet = new Book("Romeo and Juliet", "William Shakespeare", "Tragedy", "eng", "1597-07-01", 400);
+            Book hitchhikersGuide = new Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", "Science fiction, Comedy, Adventure", "eng", "1979-10-12", 224);
+
+
+            BookDAO bookDAO = new BookDAO();
+            bookDAO.create(romeoAndJuliet);
+            bookDAO.create(hitchhikersGuide);
+
+
+            List<Book> allBooks = bookDAO.getAllBooks();
+            for (Book book : allBooks) {
+                System.out.println(book);
             }
 
-            Integer authorId2 = authorDao.findByName(authorName2);
-            if (authorId2 != null) {
-                System.out.println("Found " + authorName2 + " with ID: " + authorId2);
-            } else {
-                System.out.println(authorName2 + " not found in the database.");
-            }
-
-            connection.commit();
-
-        } catch (SQLException e) {
-            System.err.println("SQL Error: " + e.getMessage());
-
-            Database.rollback();
-
-        } finally {
-            try {
-                Database.closeConnection();
-            } catch (SQLException e) {
-                System.err.println("Error closing the connection: " + e.getMessage());
-            }
+            Database.closeConnection();
+        } catch (SQLException e) {sele
+            System.err.println(e);
         }
     }
 }

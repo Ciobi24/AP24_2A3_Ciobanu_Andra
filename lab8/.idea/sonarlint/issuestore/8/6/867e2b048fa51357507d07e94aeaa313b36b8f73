@@ -1,5 +1,6 @@
 
 y
-java:S1192"WDefine a constant instead of duplicating this literal "id SERIAL PRIMARY KEY," 3 times.(Î¢†ıÿÿÿÿ8ç›¼äğ1
-\
-java:S1118":Add a private constructor to hide the implicit public one.(±€¾ıÿÿÿÿ8ñ›¼äğ1
+java:S11921"WDefine a constant instead of duplicating this literal "id SERIAL PRIMARY KEY," 3 times.(úºõ²ÿÿÿÿÿ8•Ë®­ò1
+G	java:S1066"+Replace this use of System.err by a logger.(Ø™‘8¯Ë®­ò1
+L	java:S106E"+Replace this use of System.err by a logger.(Ä¹ÖÄùÿÿÿÿ8±Ë®­ò1
+L	java:S106Y"+Replace this use of System.err by a logger.(ğÖİßûÿÿÿÿ8³Ë®­ò1
