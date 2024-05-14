@@ -1,29 +1,29 @@
 package org.example.lab9.repository;
 
-import org.example.lab9.model.Genre;
+import org.example.lab9.model.PublishingHouse;
 import jakarta.persistence.TypedQuery;
 
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class GenreRepository extends DataRepository<Genre, Integer> {
-    private static final Logger LOGGER = Logger.getLogger(GenreRepository.class.getName());
+public class PublishingHouseRepository extends DataRepository<PublishingHouse, Integer> {
+    private static final Logger LOGGER = Logger.getLogger(PublishingHouseRepository.class.getName());
 
     @Override
-    protected Class<Genre> getEntityClass() {
-        return Genre.class;
+    protected Class<PublishingHouse> getEntityClass() {
+        return PublishingHouse.class;
     }
 
-    public void create(Genre genre) {
+    public void create(PublishingHouse publishingHouse) {
         try {
-            save(genre);
+            save(publishingHouse);
         } catch (Exception e) {
             LOGGER.log(Level.SEVERE, "Error occurred in create method", e);
         }
     }
 
-    public Genre findById(Integer id) {
+    public PublishingHouse findById(Integer id) {
         try {
             return super.findById(id);
         } catch (Exception e) {
@@ -32,9 +32,9 @@ public class GenreRepository extends DataRepository<Genre, Integer> {
         }
     }
 
-    public List<Genre> findByName(String name) {
+    public List<PublishingHouse> findByName(String name) {
         try {
-            TypedQuery<Genre> query = getEntityManager().createNamedQuery("Genre.findByName", Genre.class);
+            TypedQuery<PublishingHouse> query = getEntityManager().createNamedQuery("PublishingHouse.findByName", PublishingHouse.class);
             query.setParameter("name", name);
             return query.getResultList();
         } catch (Exception e) {

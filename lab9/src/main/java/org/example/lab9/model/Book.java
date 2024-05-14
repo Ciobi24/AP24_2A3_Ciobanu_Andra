@@ -14,6 +14,10 @@ import java.util.List;
 @ToString
 @Entity
 @Table(name = "books")
+@NamedQueries({
+        @NamedQuery(name = "Genre.findById", query = "SELECT g FROM Genre g WHERE g.id = :myId"),
+        @NamedQuery(name = "Genre.findByName", query = "SELECT g FROM Genre g WHERE g.name LIKE CONCAT('%', :name,'%')")
+})
 public class Book implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -43,6 +47,11 @@ public class Book implements Serializable {
             inverseJoinColumns = @JoinColumn(name = "genre_id")
     )
     private List<Genre> genres=new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "publishing_house_id")
+    private PublishingHouse publishingHouse;
+
 
     public void addAuthor(Author author) {
         this.authors.add(author);

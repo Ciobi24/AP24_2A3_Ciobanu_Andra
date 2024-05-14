@@ -1,18 +1,8 @@
 
-U
-%src/main/resources/META-INF/beans.xml,e\8\e828918b03c044d16fb0afc5e75dea9467bb7645
-a
-1src/main/java/org/example/lab9/HelloResource.java,3\4\3405b5af2f7526c6db6dd3905de798f9f0b862c0
-d
-4src/main/java/org/example/lab9/HelloApplication.java,0\7\07cb8ec465edaee1d8c37a3aebe88489c0c19ce6
 X
 (src/main/java/org/example/lab9/Main.java,2\c\2c4772370fdc67ae03bf777675c2e49efca1371d
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-^
-.src/main/java/org/example/lab9/logic/Main.java,a\f\af581e663c3d7bb4348822a73dd8ef8a4f0fb637
-g
-7src/main/java/org/example/lab9/logic/DatabaseUtils.java,4\0\4081e9ef560d17b839c3b200677509576fe7ce80
 a
 1src/main/java/org/example/lab9/DatabaseUtils.java,f\6\f603f163ad2dabcd386bdf8999a377045e25b7f1
 p
@@ -29,3 +19,13 @@ n
 >src/main/java/org/example/lab9/repository/GenreRepository.java,d\4\d401d636ad5537a2d2cbe79e87fea4b5428c498b
 m
 =src/main/java/org/example/lab9/repository/DataRepository.java,a\1\a1d54957080bc5403a694b222d7c3559b65fcfdb
+4
+mvnw,5\d\5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
+8
+mvnw.cmd,1\f\1f1763f358c257ea3515417352b82b0165647ad1
+i
+9src/main/java/org/example/lab9/model/PublishingHouse.java,e\7\e7bd789c9e6485217e2494d59eb30a3f89ee728d
+x
+Hsrc/main/java/org/example/lab9/repository/PublishingHouseRepository.java,3\6\368bd22060e91796b4733820ffc6ff28b376b683
+?
+application.log,a\5\a5ccef7f26f71e30f2dd0db5fc057184ba415643
