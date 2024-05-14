@@ -15,8 +15,8 @@ import java.util.List;
 @Entity
 @Table(name = "books")
 @NamedQueries({
-        @NamedQuery(name = "Genre.findById", query = "SELECT g FROM Genre g WHERE g.id = :myId"),
-        @NamedQuery(name = "Genre.findByName", query = "SELECT g FROM Genre g WHERE g.name LIKE CONCAT('%', :name,'%')")
+        @NamedQuery(name = "Book.findById", query = "SELECT g FROM Book g WHERE g.id = :myId"),
+        @NamedQuery(name = "Book.findByName", query = "SELECT g FROM Book g WHERE g.title LIKE CONCAT('%', :title,'%')")
 })
 public class Book implements Serializable {
     @Id
