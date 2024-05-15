@@ -39,7 +39,7 @@ public class Main {
             }
 
             Database.closeConnection();
-        } catch (SQLException e) {sele
+        } catch (SQLException e) {
             System.err.println(e);
         }
     }
