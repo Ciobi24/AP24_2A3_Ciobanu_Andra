@@ -7,3 +7,5 @@ Y
 )src/main/java/org/example/GameServer.java,1\d\1db7c89925fbcbcfc460849db36c9a6fb4f90af0
 [
 +src/main/java/org/example/ClientThread.java,6\6\669b50531fdee8724a5d93a24b7bb0d39876f54f
+]
+-src/main/java/org/example/BattleshipGame.java,7\b\7b211ae4a20426e6e173dbf21754ea7c9fe9cdc8
