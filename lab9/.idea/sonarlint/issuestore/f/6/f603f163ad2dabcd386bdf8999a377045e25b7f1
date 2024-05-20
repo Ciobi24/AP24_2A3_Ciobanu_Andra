@@ -1,10 +1,0 @@
-
-¢	java:S116"`Rename this field "PERSISTENCE_UNIT_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÄµà8ÕÔäçõ1J$f292d3f9-eb87-483e-84ea-202fb587fb2e
-á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(æäÀşÿÿÿÿ8ØÔäçõ1J$1fe705c6-c758-4d16-bfd1-d561d7843fe4
-s
-java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ıåùèõ1J$9229c50a-26ef-4118-bf55-fbfc5a3a2dba
-v
-java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°8şåùèõ1J$7c5ecd22-e6ef-4f6e-82e9-70c518f7967b
-u
-java:S1128	"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8şåùèõ1J$4402c7aa-4a97-4972-9f0a-e47d0dcd8a14

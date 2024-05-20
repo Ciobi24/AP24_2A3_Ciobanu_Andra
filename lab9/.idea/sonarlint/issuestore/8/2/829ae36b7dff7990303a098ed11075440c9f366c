@@ -1,0 +1,19 @@
+
+i
+java:S1192©"FDefine a constant instead of duplicating this literal "title" 4 times.(ö½¥èûÿÿÿÿ8òì‰»ù1
+M
+java:S1066Œ"/Merge this if statement with the enclosing one.(’¢†÷8õì‰»ù1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øëãùÿÿÿÿ8öì‰»ù1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øëãùÿÿÿÿ8öì‰»ù1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øëãùÿÿÿÿ8öì‰»ù1
+r	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò×¤«ùÿÿÿÿ8öì‰»ù1
+r	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò×¤«ùÿÿÿÿ8÷ì‰»ù1
+r	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò×¤«ùÿÿÿÿ8÷ì‰»ù1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—€Á¾ıÿÿÿÿJ$b7b420dd-8b11-4fd9-8fb7-2bfa6145e0c6
+L	java:S106"+Replace this use of System.out by a logger.(êæõüÿÿÿÿ8…í‰»ù1
+L	java:S106"+Replace this use of System.err by a logger.(¸‡–öøÿÿÿÿ8‡í‰»ù1
+L	java:S106!"+Replace this use of System.err by a logger.(¶ÁÏÿÿÿÿÿ8ˆí‰»ù1
+G	java:S106&"+Replace this use of System.err by a logger.(´€µÁ8Ší‰»ù1
+G	java:S1066"+Replace this use of System.out by a logger.(ì³şó8‹í‰»ù1
+G	java:S106L"+Replace this use of System.err by a logger.(´€µÁ8í‰»ù1
+G	java:S106\"+Replace this use of System.out by a logger.(ì³şó8’í‰»ù1

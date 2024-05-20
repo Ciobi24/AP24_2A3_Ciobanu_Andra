@@ -1,0 +1,13 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Ÿ¨€J$7a2274fc-2911-4389-a11b-41a0af040c32
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ®Ó¿8°ž¤»ù1
+n
+java:S2677!"LUse or store the value returned from "readLine" instead of throwing it away.(Òï´åýÿÿÿÿ8¿ž¤»ù1
+e
+java:S5361("HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ø‰³Î8Ùž¤»ù1
+j
+java:S5361*"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ñÙ´Œÿÿÿÿÿ8Ùž¤»ù1
+G	java:S1069"+Replace this use of System.out by a logger.(ÉŽ§ù8Ùž¤»ù1
+L	java:S106<"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8Ùž¤»ù1
+J
+java:S1068"(Remove this unused "read" private field.(°–àÿûÿÿÿÿ8âž¤»ù1

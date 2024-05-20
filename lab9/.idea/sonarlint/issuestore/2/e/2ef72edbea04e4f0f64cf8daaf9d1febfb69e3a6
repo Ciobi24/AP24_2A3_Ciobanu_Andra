@@ -1,0 +1,19 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Ÿ¨€J$d7becd03-3a2e-44d8-a8e2-6ffe0ac55a52
+É
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¢ˆÛ¬ùÿÿÿÿ8ˆÆ”»ù1J$bd3fc4c8-4459-4e42-97fb-b7b6624a4d5e
+e
+java:S1118""Hide this public constructor.(¢ˆÛ¬ùÿÿÿÿ8ŒÆ”»ù1J$57c0222c-db9c-4c40-8bf4-cb48d899cadf
+ˆ
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(ü»¿ñ8“Æ”»ù1J$751b62ae-d971-44c8-9d8d-193da1af6143
+
+java:S1124>"EReorder the modifiers to comply with the Java Language Specification.(´ßˆÄùÿÿÿÿ8˜Æ”»ù1J$f551d9ec-b4dc-4c46-97aa-8b1ee8f4bb32
+m	java:S106E"+Replace this use of System.err by a logger.(ûœé8™Æ”»ù1J$5a5aa6ee-a70e-4f8a-8231-99adc6223061
+
+java:S1124M"EReorder the modifiers to comply with the Java Language Specification.(‘îıÃúÿÿÿÿ8šÆ”»ù1J$d99dc2de-3493-4564-9cd2-33164e9542c5
+‡
+java:S1124X"EReorder the modifiers to comply with the Java Language Specification.(ñ¸¥58›Æ”»ù1J$b6173a18-0d5f-4ef1-8567-7b89229b1656
+p
+java:S1068".Remove this unused "connection" private field.(ÒÁÏ.8Æ”»ù1J$48f3c8b3-4ea7-445b-b741-73215f332d49
+}
+java:S11441"5Remove this unused private "createConnection" method.(»Šåıÿÿÿÿ8ŸÆ”»ù1J$15ad69fb-fb3d-4844-b06d-ae66a28e499d

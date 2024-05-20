@@ -1,0 +1,7 @@
+
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–¤Ùìþÿÿÿÿ8ö§Ÿ»ù1
+T
+java:S2629I"7Use the built-in formatting to construct this argument.(ýøãê8ú§Ÿ»ù1
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Ÿ¨€J$7330d015-363a-44cb-b333-4ed10d48de2d
+h
+java:S3457@"KFormat specifiers or lambda should be used instead of string concatenation.(•ªØ™8¬¨Ÿ»ù1
