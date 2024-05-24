@@ -1,0 +1,20 @@
+
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(µ¿ç‚
+E	java:S106""+Replace this use of System.err by a logger.(¢‰æÿùÿÿÿÿ
+Q
+java:S1854?";Remove this useless assignment to local variable "players".(´¸‡º
+B
+java:S1481?",Remove this unused "players" local variable.(´¸‡º
+E	java:S106I"+Replace this use of System.out by a logger.(ˆÓ«Ñÿÿÿÿÿ
+P	java:S125F"<This block of commented-out lines of code should be removed.(Î‡ØR
+@	java:S106J"+Replace this use of System.out by a logger.(«¸ì§
+Q	java:S125K"<This block of commented-out lines of code should be removed.(ž²Ò‰
+@	java:S106O"+Replace this use of System.out by a logger.(âö×ù
+U
+java:S1854T":Remove this useless assignment to local variable "server".(Ëß½¸ûÿÿÿÿ
+F
+java:S1481T"+Remove this unused "server" local variable.(Ëß½¸ûÿÿÿÿ
+c
+java:S1128"HRemove this unused import 'org.example.TournamentLogic.WinningSequence'.(ÊŸ”ÿûÿÿÿÿ
