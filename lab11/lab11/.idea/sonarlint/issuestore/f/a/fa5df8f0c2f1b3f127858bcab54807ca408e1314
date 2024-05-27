@@ -1,0 +1,15 @@
+
+‘
+java:S11922"NDefine a constant instead of duplicating this literal "Book with id " 4 times.(üÚï8Ã½ª«û1J$4ef86371-52bc-448f-b0fc-fa18c24f7145
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8éëÑÊû1
+H
+java:S1452$"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8óëÑÊû1
+H
+java:S1452/"&Remove usage of generic wildcard type.(ÿš­–úÿÿÿÿ8öëÑÊû1
+H
+java:S1452e"&Remove usage of generic wildcard type.(­•ìçÿÿÿÿÿ8şëÑÊû1
+B
+java:S1452x"&Remove usage of generic wildcard type.(’à·y8€ìÑÊû1
+C
+java:S1452‡"&Remove usage of generic wildcard type.(Ù¾V8…ìÑÊû1
