@@ -1,0 +1,14 @@
+
+b
+java:S1192 "GDefine a constant instead of duplicating this literal ".class" 5 times.(ý˜¢¯øÿÿÿÿ
+|
+java:S1488_"aImmediately return this expression instead of assigning it to the temporary variable "className".(¿Ç«éüÿÿÿÿ
+Z
+java:S20952"DUse try-with-resources or close this "Stream" in a "finally" clause.(ñ¡Ê¨
+b
+java:S2095D"LUse try-with-resources or close this "URLClassLoader" in a "finally" clause.(Š¯üÑ
+@	java:S106"+Replace this use of System.out by a logger.(ú¬·Ü
+”
+java:S11300"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(±–°“ùÿÿÿÿ
+F
+java:S1874C"+Remove this use of "URL"; it is deprecated.(›í’Èøÿÿÿÿ
