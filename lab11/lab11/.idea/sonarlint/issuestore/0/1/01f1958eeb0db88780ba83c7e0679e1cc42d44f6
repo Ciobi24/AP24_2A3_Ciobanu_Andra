@@ -1,12 +1,14 @@
 
 ¤
-java:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "savedBook".(ã¸×Ã8Ù¡ñËû1J$392c5393-bbf1-4d10-95ad-155d272993ed
+java:S1488/"aImmediately return this expression instead of assigning it to the temporary variable "savedBook".(ã¸×Ã8–ú¨Õü1J$e0638af7-fc28-4572-80cb-838be2aa4957
 «
-java:S14884"cImmediately return this expression instead of assigning it to the temporary variable "updatedBook".(„À§‘ûÿÿÿÿ8Ú¡ñËû1J$21bc0e82-56f2-4b29-b18f-bf1791fd0c0e
+java:S14887"cImmediately return this expression instead of assigning it to the temporary variable "updatedBook".(„À§‘ûÿÿÿÿ8–ú¨Õü1J$5389fe2f-7c79-4dd7-bbc9-65cc18cd5b0c
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8â¡ñËû1J$a619e4db-895c-4490-bd5e-661fddd7368c
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¿ú¨Õü1J$d708b18e-3bb1-4dfd-a9b6-0037c770ee3f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ä¡ñËû1J$f513a17c-0983-4a7a-9320-f6cf12e076b6
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¿ú¨Õü1J$1b79f1ad-393a-48fe-9819-d971730a61cf
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¿ú¨Õü1J$93a2473d-ee26-45ef-8648-5dec1591b886
 k
-java:S2201>"(The return value of "size" must be used.(º¥Ô«8ë¡ñËû1J$261dd09c-683c-4769-87e2-e02afe95df7d
-~	java:S125>"<This block of commented-out lines of code should be removed.(º¥Ô«8ì¡ñËû1J$35845a73-d632-4cc1-8329-60d0670d5584
+java:S2201A"(The return value of "size" must be used.(º¥Ô«8Èú¨Õü1J$f516de56-487c-4fd1-a050-e2f531f2209f
+~	java:S125A"<This block of commented-out lines of code should be removed.(º¥Ô«8Éú¨Õü1J$f0960882-3989-458b-80a0-24cb0c043bfd

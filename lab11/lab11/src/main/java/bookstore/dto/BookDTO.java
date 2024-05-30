@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -19,7 +20,7 @@ public class BookDTO {
     private Long id;
     private String name;
     private int numberOfPages;
-    private String publicationDate;
+    private Date publicationDate;
 
     private String genres;
 

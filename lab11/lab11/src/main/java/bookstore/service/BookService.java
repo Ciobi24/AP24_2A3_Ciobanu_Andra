@@ -4,15 +4,16 @@ import bookstore.dto.AuthorDTO;
 import bookstore.dto.BookDTO;
 import bookstore.model.business.Author;
 import bookstore.model.business.Book;
+import bookstore.model.business.RecommendedOrder;
 import bookstore.repository.AuthorRepository;
 import bookstore.repository.BookRepository;
+import bookstore.repository.RecommendedOrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class BookService {
@@ -21,6 +22,8 @@ public class BookService {
     BookRepository bookRepository;
     @Autowired
     AuthorRepository authorRepository;
+    @Autowired
+    private RecommendedOrderRepository recommendedOrderRepository;
 
     public Book findById(Long id) {
         return bookRepository.findById(id)
@@ -71,5 +74,70 @@ public void deleteBook(Long id) {
         book.setPublishingHouse(bookDTO.getPublishingHouse());
         return bookRepository.save(book);
     }
+    public List<Book> getLongestSequenceOfBooks() {
+        List<Book> books = bookRepository.findAll();
+        if (books.isEmpty()) {
+            return Collections.emptyList();
+        }
 
+        books.sort(Comparator.comparing(Book::getPublicationDate));
+        Map<Book, List<Book>> graph = buildGraph(books);
+
+        List<Book> longestSequence = new ArrayList<>();
+        for (Book book : books) {
+            List<Book> currentSequence = findLongestSequenceFrom(book, graph, new HashMap<>());
+            if (currentSequence.size() > longestSequence.size()) {
+                longestSequence = currentSequence;
+            }
+        }
+
+        return longestSequence;
+    }
+
+    private Map<Book, List<Book>> buildGraph(List<Book> books) {
+        Map<Book, List<Book>> graph = new HashMap<>();
+
+        // Initialize the graph with empty lists for each book
+        for (Book book : books) {
+            graph.put(book, new ArrayList<>());
+        }
+
+        // Populate the graph based on the recommended order
+        List<RecommendedOrder> recommendedOrders = recommendedOrderRepository.findAll();
+        for (RecommendedOrder order : recommendedOrders) {
+            Book bookA = bookRepository.findById(order.getBookAId()).orElse(null);
+            Book bookB = bookRepository.findById(order.getBookBId()).orElse(null);
+
+            if (bookA != null && bookB != null && bookA.getPublicationDate() != null && bookB.getPublicationDate() != null) {
+                // Ensure the publication dates are not null and add bookB to the adjacency list of bookA
+                graph.get(bookA).add(bookB);
+            }
+        }
+
+        return graph;
+    }
+
+
+    private List<Book> findLongestSequenceFrom(Book book, Map<Book, List<Book>> graph, Map<Book, List<Book>> memo) {
+        if (memo.containsKey(book)) {
+            return memo.get(book);
+        }
+
+        List<Book> longestSequence = new ArrayList<>();
+        for (Book next : graph.get(book)) {
+            if (next.getPublicationDate().compareTo(book.getPublicationDate()) > 0) {
+                List<Book> currentSequence = findLongestSequenceFrom(next, graph, memo);
+                if (currentSequence.size() > longestSequence.size()) {
+                    longestSequence = currentSequence;
+                }
+            }
+        }
+
+        List<Book> result = new ArrayList<>();
+        result.add(book);
+        result.addAll(longestSequence);
+        memo.put(book, result);
+
+        return result;
+    }
 }

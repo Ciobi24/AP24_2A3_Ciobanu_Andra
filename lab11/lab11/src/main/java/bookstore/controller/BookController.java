@@ -154,5 +154,10 @@ public class BookController {
                 .ok()
                 .body(new AuthorDTO(id, author));
     }
+    @GetMapping("/longest-sequence")
+    @PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
+    public ResponseEntity<List<Book>> getLongestSequenceOfBooks() {
+        return ResponseEntity.ok(bookService.getLongestSequenceOfBooks());
+    }
 
 }

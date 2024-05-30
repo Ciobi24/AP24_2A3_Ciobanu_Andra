@@ -1,15 +1,15 @@
 
 ‘
-java:S11922"NDefine a constant instead of duplicating this literal "Book with id " 4 times.(üÚï8Ã½ª«û1J$4ef86371-52bc-448f-b0fc-fa18c24f7145
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8éëÑÊû1
-H
-java:S1452$"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8óëÑÊû1
-H
-java:S1452/"&Remove usage of generic wildcard type.(ÿš­–úÿÿÿÿ8öëÑÊû1
-H
-java:S1452e"&Remove usage of generic wildcard type.(­•ìçÿÿÿÿÿ8şëÑÊû1
-B
-java:S1452x"&Remove usage of generic wildcard type.(’à·y8€ìÑÊû1
-C
-java:S1452‡"&Remove usage of generic wildcard type.(Ù¾V8…ìÑÊû1
+java:S11922"NDefine a constant instead of duplicating this literal "Book with id " 4 times.(üÚï8Ã½ª«û1J$bb1ec759-96a2-4566-a060-880c52f7cfee
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8éëÑÊû1J$4d73826d-3855-44ca-9a1a-de8ee6f75151
+n
+java:S1452$"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8óëÑÊû1J$37f0ad88-18f3-4b92-8df5-6518aefb8df3
+n
+java:S1452/"&Remove usage of generic wildcard type.(ÿš­–úÿÿÿÿ8öëÑÊû1J$d0f41215-1fba-4d12-a154-bd32ec19396b
+n
+java:S1452e"&Remove usage of generic wildcard type.(­•ìçÿÿÿÿÿ8şëÑÊû1J$60b6714f-ea4d-4c5d-bf8e-3f1bbda89684
+h
+java:S1452x"&Remove usage of generic wildcard type.(’à·y8€ìÑÊû1J$932661ec-7f17-4455-bb6d-39abb45043f7
+i
+java:S1452‡"&Remove usage of generic wildcard type.(Ù¾V8…ìÑÊû1J$e6940b27-fb22-4e7f-8282-669d015cc142

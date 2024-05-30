@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -29,7 +26,7 @@ public class Book {
 
     private int numberOfPages;
 
-    private String publicationDate;
+    private Date publicationDate;
 
     private String genres;
 
