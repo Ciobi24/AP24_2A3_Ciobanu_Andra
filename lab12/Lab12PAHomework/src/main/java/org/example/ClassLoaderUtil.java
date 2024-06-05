@@ -1,17 +1,17 @@
 package org.example;
 
-import java.io.File;
 import java.net.URL;
 import java.net.URLClassLoader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class ClassLoaderUtil {
-    public static Class<?> loadClass(String className, String classpath) throws Exception {
-        File file = new File(classpath);
-        URL url = file.toURI().toURL();
-        URL[] urls = new URL[]{url};
 
-        try (URLClassLoader loader = new URLClassLoader(urls)) {
-            return loader.loadClass(className);
+    public static Class<?> loadClass(String className, String classpath) throws Exception {
+        Path path = Paths.get(classpath).toAbsolutePath();
+        URL[] urls = { path.toUri().toURL() };
+        try (URLClassLoader urlClassLoader = URLClassLoader.newInstance(urls)) {
+            return urlClassLoader.loadClass(className);
         }
     }
 }
